@@ -155,3 +155,13 @@ footer {
   margin: 4px;
   text-align: center;
 }
+.bg {
+  position: absolute;
+  width: 330px;
+  height: 300px;
+  left: 22px;
+  top: 142px;
+
+  background: #E3E3E3;
+  border-radius: 15px;
+  }

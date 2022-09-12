@@ -1,7 +1,7 @@
 import './App.css'
 import { Routes, Route, Link } from "react-router-dom";
 import styled from "styled-components";
-import { StepProgress } from 'react-stepz'
+import { withStepProgress, useStepProgress, Step, StepProgressBar} from 'react-stepz'
 
 const NavUnlisted = styled.ul`
   text-decoration: none;
@@ -73,10 +73,14 @@ function Scan(){
             <div className="subtitle">
                 <span>Siga para o próximo ponto</span>
             </div>
+            
         </div>
     <div className="fInputTxt">
-          <NavUnlisted>
-              <Link style={linkStyle} to="/">Home</Link>
+    <NavUnlisted>
+            <button className="btn-enter">
+              <Link style={linkStyle} to="/quiz">next</Link>
+            </button>
+          </NavUnlisted>
               <div className="central">
                 <svg width="180" height="178" viewBox="0 0 180 178" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                 <rect width="180" height="178" fill="url(#pattern0)"/>
@@ -88,7 +92,7 @@ function Scan(){
                 </defs>
                 </svg>
               </div>
-          </NavUnlisted>
+          
     </div>
     </header>
     <footer>
@@ -100,8 +104,10 @@ function Scan(){
 }
 
 function Quiz(){
+  
 
-
-  return <></>
+  return <>
+  
+  </>
 }
 export default App

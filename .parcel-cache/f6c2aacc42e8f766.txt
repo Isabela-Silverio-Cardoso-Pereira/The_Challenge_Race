@@ -1,14 +1,14 @@
-8371
+8382
 102C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\camelize133074899530094398 1
 126C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\resolve\test\resolver\cup.coffee133074899531384390 0
-93C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\package.json133074937011468514 0
+93C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\package.json133074937893818404 0
 143C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\htmlnano\lib\modules\collapseBooleanAttributes.js133074899529904417 0
 91C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\.gitignore133074898160279107 0
 141C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\caniuse-lite\data\features\css-rebeccapurple.js133074899557492607 0
 142C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\source-map-support\browser-source-map-support.js133074899521434411 0
 125C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\caniuse-lite\data\regions\SZ.js133074899569392594 0
 128C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\types\lib\asserts\generated133074899531134387 1
-85C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\dist133074901894552073 1
+85C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\dist133074953104086162 1
 143C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\resolve\test\resolver\incorrect_main\package.json133074899551692620 0
 111C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\csso\lib\usage.js133074899543794397 0
 122C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\posthtml-parser\package.json133074899527974401 0
@@ -30,7 +30,7 @@
 146C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\dom-serializer\node_modules\entities\lib\decode.d.ts133074899536734405 0
 156C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\styled-components\primitives\dist\models\ServerStyleSheet.d.ts133074899558542588 0
 113C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\yaml\types\pairs.js133074899537434423 0
-98C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\package-lock.json133074937667196571 0
+98C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\package-lock.json133074937893808324 0
 116C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\fp\isElement.js133074899566132585 0
 119C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\types\lib\comments133074899545154398 1
 115C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\fp\multiply.js133074899568142596 0
@@ -43,7 +43,7 @@
 132C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\typescript\loc\lcl\FRA\TypeScriptTasks133074899568682598 1
 133C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\terser\node_modules\commander\Readme.md133074899528904393 0
 120C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\htmlnano\docs\package.json133074899543804399 0
-93C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules133074937666356507 1
+93C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules133074937892818294 1
 119C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\yaml\browser\parse-cst.js133074899538294402 0
 114C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\term-size\index.d.ts133074899533294386 0
 123C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\type-fest\source\entries.d.ts133074899534904433 0
@@ -108,7 +108,7 @@
 145C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\styled-components\native\dist\utils\isFunction.d.ts133074899557322590 0
 99C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\tsconfig.node.json133074898166269113 0
 131C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\typescript\lib\lib.es2019.string.d.ts133074899571062594 0
-90C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\yarn.lock133074937667526500 0
+90C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\yarn.lock133074937894158308 0
 151C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\typescript\loc\lcl\DEU\Targets\TypeScriptCompile.xaml.lcl133074899569082589 0
 103C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\nth-check133074899537894403 1
 124C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\typescript\loc\lcl\ESN\Targets133074899569982599 1
@@ -130,7 +130,7 @@
 150C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\styled-components\native\dist\dist\constructors\css.d.ts133074899560212625 0
 112C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\fp\merge.js133074899567912593 0
 138C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\typescript\loc\lcl\ITA\TypeScriptDebugEngine133074899569572589 1
-92C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\src\App.css133074898166209117 0
+92C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\src\App.css133074953098736173 0
 132C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\core\test\fixtures\module-b.js133074899550762606 0
 117C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\react-router\index.d.ts133074899538914395 0
 134C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\helper-string-parser\lib\index.js133074899525614397 0
@@ -140,7 +140,7 @@
 118C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\fp\isArguments.js133074899565802617 0
 152C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\runtime-service-worker\src\ServiceWorkerRuntime.js133074899525754400 0
 138C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\typescript\loc\lcl\JPN\TypeScriptDebugEngine133074899569612591 1
-92C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\src\App.tsx133074935681998934 0
+92C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\src\App.tsx133074953098746176 0
 110C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\css-what\LICENSE133074899519544405 0
 151C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\typescript\loc\lcl\CHS\Targets\TypeScriptCompile.xaml.lcl133074899569032598 0
 139C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\posthtml\node_modules\posthtml-parser\license133074899519754395 0
@@ -225,8 +225,8 @@
 127C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\postcss\lib\css-syntax-error.d.ts133074899541284383 0
 124C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\css-what\lib\es\parse.d.ts.map133074899535764392 0
 99C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\clone133074899529374459 1
-123C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\css-tree\lib\syntax\create.js133074899539814403 0
 118C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\_createToPairs.js133074899555862600 0
+123C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\css-tree\lib\syntax\create.js133074899539814403 0
 123C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\utility-types\dist\index.d.ts133074899537024394 0
 118C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\terser\tools\domprops.js133074899540364427 0
 96C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\public\vite.svg133074898166189100 0
@@ -253,7 +253,7 @@
 128C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\graph\src\AdjacencyList.js133074899529444396 0
 155C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\styled-components\native\dist\dist\utils\addUnitIfNeeded.d.ts133074899561422597 0
 121C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\svgo\plugins\_transforms.js133074899530974397 0
-112C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\.package-lock.json133074937667526500 0
+112C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\.package-lock.json133074937894158308 0
 104C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\yaml\types133074899542594392 1
 142C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\resolve\test\resolver\symlinked\_\symlink_target133074899526184405 1
 111C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\resolve\.eslintrc133074899522614393 0
@@ -280,7 +280,7 @@
 141C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\react-router\react-router.production.min.js.map133074899536154392 0
 115C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\_freeGlobal.js133074899556392618 0
 118C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\terser\lib\propmangle.js133074899544294400 0
-102C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@esbuild133074937080851967 1
+102C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@esbuild133074937666376495 1
 123C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\react-router-dom\package.json133074899532004402 0
 131C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\core\test\Environment.test.js133074899546714401 0
 100C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\base-x133074899526304387 1
@@ -292,7 +292,7 @@
 163C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-fallback133074899551552585 1
 151C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mtest5.c133074899548374389 0
 117C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\toPlainObject.js133074899571552595 0
-111C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@msgpackr-extract133074937666366522 1
+111C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@msgpackr-extract133074937892828309 1
 125C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\caniuse-lite\data\regions\KZ.js133074899565102585 0
 174C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@jridgewell\source-map\node_modules\@jridgewell\gen-mapping\dist\gen-mapping.mjs133074899531564390 0
 145C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\styled-components\native\dist\utils\escape.d.ts.map133074899556802592 0
@@ -309,7 +309,7 @@
 125C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\source-map\dist\wasm.js133074899537594409 0
 151C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\package-manager\test\fixtures\packages\a\index.js133074899535144390 0
 100C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@lezer133074899499014396 1
-99C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@lmdb133074937666376495 1
+99C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@lmdb133074937892838282 1
 120C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\react-stepz\dist\index.css133074937009098503 0
 131C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\caniuse-lite\data\features\dataset.js133074899558672610 0
 122C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\traverse\lib\path\lib133074899543944391 1
@@ -728,6 +728,15 @@
 103C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\react-dom133074899550972589 1
 146C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\styled-components\primitives\dist\utils\flatten.d.ts133074899559512612 0
 113C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\react-error-overlay133074899532204415 1
+128C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\type-fest\source\set-optional.d.ts133074899540954386 0
+114C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\yaml\browser\pair.js133074899536484407 0
+111C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\cache\lib133074899535954393 1
+171C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\source-map\parcel_sourcemap_node\artifacts\index.linux-arm64-gnu.node133074899544944410 0
+116C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\typescript\loc\lcl\ITA133074899569572589 1
+131C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\transformer-html\package.json133074899532094409 0
+120C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\postcss\lib\container.d.ts133074899541154416 0
+102C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\react-is133074937892608298 1
+149C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\styled-components\native\dist\primitives\index.d.ts.map133074899555232613 0
 120C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\nth-check\lib\compile.d.ts133074899538294402 0
 138C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\css-select\lib\pseudo-selectors\filters.d.ts133074899540584387 0
 150C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\csso\lib\restructure\prepare\createDeclarationIndexer.js133074899537624388 0
@@ -1162,12 +1171,6 @@
 125C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\caniuse-lite\data\regions\CR.js133074899553052613 0
 113C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\yaml\browser\map.js133074899534884412 0
 141C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\styled-components\native\dist\dist\constructors133074899560312598 1
-128C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\type-fest\source\set-optional.d.ts133074899540954386 0
-114C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\yaml\browser\pair.js133074899536484407 0
-111C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\cache\lib133074899535954393 1
-171C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\source-map\parcel_sourcemap_node\artifacts\index.linux-arm64-gnu.node133074899544944410 0
-116C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\typescript\loc\lcl\ITA133074899569572589 1
-131C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\transformer-html\package.json133074899532094409 0
 116C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\yaml\browser\scalar.js133074899540734388 0
 130C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\rollup\dist\shared\loadConfigFile.js133074899531824401 0
 125C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\caniuse-lite\data\regions\BW.js133074899549714408 0
@@ -1416,10 +1419,10 @@
 133C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\css-tree\lib\syntax\node\Declaration.js133074899542524391 0
 115C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\csso\lib\clean\Raw.js133074899542544413 0
 117C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\vite\types\package.json133074899544704392 0
-116C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\vite\types\terser.d.ts133074899550462605 0
-113C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\parcel\node_modules133074899499394402 1
 147C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\helpers\lib\helpers\awaitAsyncGenerator.js.map133074899538834401 0
 121C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\rollup\dist\shared\watch.js133074899544814395 0
+113C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\parcel\node_modules133074899499394402 1
+116C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\vite\types\terser.d.ts133074899550462605 0
 116C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\_setToString.js133074899558512617 0
 109C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\vite\src\client133074899550122602 1
 128C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\package-manager\src\Npm.js133074899540484410 0
@@ -1557,6 +1560,8 @@
 138C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\typescript\loc\lcl\PTB\TypeScriptDebugEngine133074899569762603 1
 135C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\scheduler\cjs\scheduler.production.min.js133074899534354393 0
 125C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\caniuse-lite\data\regions\KR.js133074899565042611 0
+106C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\react-is\cjs133074937892558295 1
+108C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\util.js133074899572202582 0
 115C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\typescript\AUTHORS.md133074899570222607 0
 115C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\fp\toString.js133074899571582581 0
 138C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\typescript\loc\lcl\KOR\TypeScriptDebugEngine133074899569652604 1
@@ -1846,6 +1851,7 @@
 144C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\styled-components\primitives\dist\utils\isTag.d.ts133074899559932590 0
 113C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\semver\package.json133074899529264391 0
 149C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@jridgewell\trace-mapping\dist\trace-mapping.umd.js.map133074899530344415 0
+130C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\react-is\cjs\react-is.development.js133074937892528293 0
 135C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\typescript\lib\lib.es2015.collection.d.ts133074899570472596 0
 128C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\optimizer-htmlnano\LICENSE133074899519664407 0
 134C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\typescript\lib\lib.es2015.generator.d.ts133074899570532594 0
@@ -1929,12 +1935,12 @@
 139C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\styled-components\native\dist\test\utils.d.ts133074899556072618 0
 153C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\styled-components\native\dist\utils\determineTheme.d.ts.map133074899556452596 0
 129C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\typescript\lib\lib.es2020.intl.d.ts133074899571182603 0
-120C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\svgo\plugins\removeDesc.js133074899543034415 0
-113C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\parcel\package.json133074899531204386 0
 116C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\fp\kebabCase.js133074899567142585 0
 126C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\utils\node_modules\chalk133074899530664381 1
 131C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\typescript\lib\lib.es2020.number.d.ts133074899571192598 0
 135C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\caniuse-lite\data\features\geolocation.js133074899560742586 0
+113C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\parcel\package.json133074899531204386 0
+120C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\svgo\plugins\removeDesc.js133074899543034415 0
 122C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\compat-data\README.md133074899523284448 0
 138C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\supports-preserve-symlinks-flag\CHANGELOG.md133074899531354391 0
 137C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\typescript\lib\lib.es2020.sharedmemory.d.ts133074899571242583 0
@@ -1981,9 +1987,9 @@
 140C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@jridgewell\trace-mapping\dist\types\sort.d.ts133074899535154397 0
 124C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\typescript\lib\lib.esnext.d.ts133074899571632600 0
 165C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\styled-components\primitives\dist\dist\macro\test\babel.config.d.ts.map133074899566652608 0
+142C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\core\lib\config\config-descriptors.js.map133074899534654423 0
 119C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\_basePropertyOf.js133074899550522601 0
 121C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\svgo\plugins\removeTitle.js133074899545204397 0
-142C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\core\lib\config\config-descriptors.js.map133074899534654423 0
 129C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\typescript\lib\lib.esnext.full.d.ts133074899571642598 0
 155C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\styled-components\native\dist\models\StyledComponent.d.ts.map133074899554902596 0
 147C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\runtime\helpers\esm\classApplyDescriptorSet.js133074899545544400 0
@@ -2057,9 +2063,9 @@
 145C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\typescript\lib\es\diagnosticMessages.generated.json133074899565182600 0
 139C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\react-stepz\dist\components\StepProgress.d.ts133074937009338479 0
 112C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\typescript\bin\tsc133074899519824402 0
-117C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\typescript\bin\tsserver133074899523654394 0
-131C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\core\lib\config\caching.js.map133074899531324393 0
 145C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\runtime\helpers\initializerDefineProperty.js133074899554792608 0
+131C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\core\lib\config\caching.js.map133074899531324393 0
+117C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\typescript\bin\tsserver133074899523654394 0
 156C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\styled-components\native\dist\dist\sheet\GroupIDAllocator.d.ts133074899561032607 0
 113C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\type-fest\base.d.ts133074899530064393 0
 163C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\styled-components\primitives\dist\dist\models\ComponentStyle.d.ts.map133074899563372590 0
@@ -2139,7 +2145,6 @@
 126C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\resolve\test\module_dir\ymodules133074899542464409 1
 119C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\fp\includesFrom.js133074899565202601 0
 131C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\type-fest\source\set-return-type.d.ts133074899541254401 0
-132C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\core\lib\config\config-chain.js133074899532324386 0
 118C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\_arrayIncludes.js133074899532194396 0
 127C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\type-fest\source\stringified.d.ts133074899541554391 0
 142C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\plugin-transform-react-jsx-self\README.md133074899523234424 0
@@ -2457,7 +2462,6 @@
 108C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@lezer\lr\dist133074899534424389 1
 144C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\styled-components\test-utils\setupTestFramework.js133074899541724410 0
 116C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\_baseToPairs.js133074899552042625 0
-116C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\parent-module\index.js133074899522674408 0
 139C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\styled-components\scripts\generateErrorMap.js133074899541364396 0
 127C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\styled-components\primitives\dist133074899559222588 1
 128C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\resolve\test\node-modules-paths.js133074899548724414 0
@@ -2710,9 +2714,9 @@
 111C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\reverse.js133074899569782612 0
 118C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\safe-buffer\package.json133074899519424388 0
 131C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@swc\helpers\lib\_get_prototype_of.js133074899542664427 0
+127C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\core\lib\config\caching.js133074899530034392 0
 111C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\htmlnano\index.js133074899534914388 0
 131C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\utils\test\objectHash.test.js133074899544764402 0
-127C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\core\lib\config\caching.js133074899530034392 0
 162C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\styled-components\primitives\dist\dist\utils\determineTheme.d.ts.map133074899565612599 0
 120C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@types\react-dom\README.md133074899522844395 0
 107C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\max.js133074899567782591 0
@@ -2748,6 +2752,7 @@
 137C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\caniuse-lite\data\features\token-binding.js133074899569892597 0
 152C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\plugin-transform-react-jsx-development\package.json133074899526754405 0
 160C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\styled-components\primitives\dist\dist\utils\getComponentName.d.ts133074899565942590 0
+133C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\react-is\cjs\react-is.production.min.js133074937892568275 0
 164C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\styled-components\primitives\dist\dist\utils\getComponentName.d.ts.map133074899565962610 0
 117C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\posthtml-parser\license133074899519434386 0
 133C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\runtime\helpers\esm\package.json133074899552422582 0
@@ -2803,6 +2808,7 @@
 145C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\caniuse-lite\data\features\requestanimationframe.js133074899568212608 0
 122C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\loose-envify\loose-envify.js133074899529374459 0
 150C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\styled-components\primitives\dist\dist\utils\stylis.d.ts133074899566482588 0
+130C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\react-is\umd\react-is.development.js133074937892548285 0
 126C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\postcss-value-parser\lib\walk.js133074899529864406 0
 135C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\helper-module-imports\package.json133074899530924409 0
 122C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\resolve\test\resolver\mug.js133074899548444393 0
@@ -2862,9 +2868,9 @@
 160C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\styled-components\primitives\dist\dist\models\GlobalStyle.d.ts.map133074899564342602 0
 120C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\react-router-dom\README.md133074899536314390 0
 160C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\styled-components\primitives\dist\dist\models\InlineStyle.d.ts.map133074899564412584 0
-115C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\react-refresh\LICENSE133074899519424388 0
-122C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\css-tree\lib\syntax\function133074899554382599 1
 165C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\styled-components\primitives\dist\dist\models\ServerStyleSheet.d.ts.map133074899564482633 0
+122C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\css-tree\lib\syntax\function133074899554382599 1
+115C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\react-refresh\LICENSE133074899519424388 0
 164C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\styled-components\primitives\dist\dist\models\StyledComponent.d.ts.map133074899564802582 0
 127C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lmdb\dependencies\lz4\lib\lz4hc.c133074899541444396 0
 166C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\styled-components\primitives\dist\dist\models\StyledNativeComponent.d.ts133074899564822593 0
@@ -2917,8 +2923,8 @@
 122C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\source-map\lib\base64-vlq.js133074899530064393 0
 149C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\styled-components\primitives\dist\constructors\css.d.ts133074899557812605 0
 106C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\.bin\esbuild133074899575272619 0
-125C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\css-tree\lib\tokenizer\index.js133074899548544387 0
 155C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\styled-components\primitives\dist\constructors\keyframes.d.ts133074899557842610 0
+125C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\css-tree\lib\tokenizer\index.js133074899548544387 0
 125C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\caniuse-lite\data\regions\GA.js133074899560622591 0
 129C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\postcss-value-parser\lib\index.d.ts133074899532654399 0
 158C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\styled-components\native\dist\utils\generateDisplayName.d.ts.map133074899557032590 0
@@ -3079,8 +3085,6 @@
 138C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\codeframe\node_modules\color-convert133074899530454380 1
 145C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\styled-components\native\dist\primitives\index.d.ts133074899555182602 0
 156C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\core\test\fixtures\custom-format-mismatch\package.json133074899556702597 0
-120C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\postcss\lib\container.d.ts133074899541154416 0
-149C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\styled-components\native\dist\primitives\index.d.ts.map133074899555232613 0
 145C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\styled-components\native\dist\native\index.d.ts.map133074899555132591 0
 150C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\styled-components\native\dist\models\ComponentStyle.d.ts133074899553772593 0
 141C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\htmlnano\lib\modules\sortAttributesWithLists.js133074899540784389 0
@@ -3247,14 +3251,13 @@
 118C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\fp\reduceRight.js133074899569532592 0
 160C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\styled-components\native\dist\dist\sheet\GroupIDAllocator.d.ts.map133074899561052605 0
 125C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\generator\lib\generators133074899540454410 1
-103C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\dist\index.96e2502d.js133074901894422064 0
+103C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\dist\index.96e2502d.js133074953103956211 0
 151C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\styled-components\native\dist\dist\sheet\Rehydration.d.ts133074899561102593 0
 125C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\caniuse-lite\data\regions\HU.js133074899561512603 0
-107C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\dist\index.96e2502d.js.map133074901894532075 0
+107C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\dist\index.96e2502d.js.map133074953104066198 0
 155C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\styled-components\native\dist\dist\sheet\Rehydration.d.ts.map133074899561112591 0
 127C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lmdb\dependencies\lz4\lib\LICENSE133074899534264416 0
 143C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\styled-components\native\dist\dist\sheet\Tag.d.ts133074899561172587 0
-114C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\parse-json\readme.md133074899526204406 0
 120C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\templateSettings.js133074899571132595 0
 147C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\styled-components\native\dist\dist\sheet\Tag.d.ts.map133074899561192595 0
 134C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\runtime\helpers\setPrototypeOf.js133074899555762639 0
@@ -3312,6 +3315,9 @@
 125C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\caniuse-lite\data\regions\YT.js133074899571342597 0
 115C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\_baseGetTag.js133074899544274399 0
 114C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\react-router-dom\umd133074899535294414 1
+121C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\transformer-raw\src133074899525504419 1
+145C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mdb_load.c133074899542824385 0
+110C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\react-is\LICENSE133074937892488300 0
 116C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\import-fresh\readme.md133074899526234383 0
 139C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\caniuse-lite\data\features\abortcontroller.js133074899525954393 0
 116C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\nth-check\lib\index.js133074899528464383 0
@@ -3658,6 +3664,10 @@
 129C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@emotion\is-prop-valid\src\props.js133074899532114383 0
 108C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\once.js133074899568452596 0
 126C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\resolve\test\dotdot\abc\index.js133074899541704407 0
+134C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\core\test\RequestTracker.test.js133074899553552626 0
+133C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\core\lib\transformation\index.js133074899551982609 0
+133C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\react-is\umd\react-is.production.min.js133074937892578298 0
+143C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\core\src\config\resolve-targets-browser.ts133074899553812596 0
 113C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\_DataView.js133074899556002595 0
 115C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\resolve\lib\core.json133074899551152590 0
 116C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\resolve\lib\homedir.js133074899541304406 0
@@ -3718,6 +3728,7 @@
 133C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\node-resolver-core\node_modules133074899574732590 1
 111C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lmdb\util\when.js133074899554112601 0
 125C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\caniuse-lite\data\regions\RU.js133074899568352634 0
+115C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\react-is\package.json133074937892598311 0
 137C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\react-router\react-router.production.min.js133074899530104394 0
 118C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\generator\LICENSE133074899519744406 0
 116C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\react-router\README.md133074899537534399 0
@@ -3741,6 +3752,15 @@
 146C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\react-refresh\cjs\react-refresh-babel.development.js133074899525704415 0
 149C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\react-refresh\cjs\react-refresh-babel.production.min.js133074899527224395 0
 151C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\react-refresh\cjs\react-refresh-runtime.production.min.js133074899530184391 0
+111C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\react-is\index.js133074937892508287 0
+106C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\is-json\test133074899530214391 1
+114C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\path-type\index.d.ts133074899522664398 0
+149C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\node-resolver-core\test\fixture\nested\index.js133074899540454410 0
+111C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\xorWith.js133074899572572599 0
+144C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\.bin\node-gyp-build-optional-packages-optional.ps1133074899575292623 0
+155C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@emotion\is-prop-valid\dist\emotion-is-prop-valid.cjs.prod.js133074899528254398 0
+112C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\react-is\README.md133074937892618301 0
+106C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\react-is\umd133074937892568275 1
 121C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\react-error-overlay\LICENSE133074899519434386 0
 113C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\react-dom\client.js133074899522614393 0
 140C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@swc\helpers\src\_class_private_method_get.mjs133074899552552630 0
@@ -3901,8 +3921,6 @@
 113C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\escalade\index.d.ts133074899531624408 0
 114C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\picocolors\README.md133074899527654390 0
 116C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\fp\unzipWith.js133074899572062581 0
-106C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\is-json\test133074899530214391 1
-114C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\path-type\index.d.ts133074899522664398 0
 113C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\path-type\readme.md133074899527674404 0
 114C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\fp\isError.js133074899566312625 0
 125C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\caniuse-lite\data\regions\BY.js133074899550152618 0
@@ -3912,6 +3930,8 @@
 145C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\caniuse-lite\data\features\css-placeholder-shown.js133074899557412594 0
 112C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\parse-json\license133074899519454396 0
 117C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\parse-json\package.json133074899524914398 0
+114C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\parse-json\readme.md133074899526204406 0
+116C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\parent-module\index.js133074899522674408 0
 115C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\parent-module\license133074899524924404 0
 120C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\parent-module\package.json133074899519464388 0
 116C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\wrapperValue.js133074899572502606 0
@@ -4177,8 +4197,6 @@
 136C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\msgpackr-extract\bin\download-prebuilds.js133074899535224398 0
 115C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\msgpackr\benchmark.md133074899536604413 0
 111C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\pullAll.js133074899569212593 0
-121C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\css-tree\lib\utils\clone.js133074899536784399 0
-120C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\core\lib\worker.js133074899556042602 0
 107C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\msgpackr\dist133074899534914388 1
 133C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\caniuse-lite\data\features\gyroscope.js133074899561142590 0
 124C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\watcher\src\DirTree.cc133074899530294394 0
@@ -4272,7 +4290,6 @@
 144C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\caniuse-lite\data\features\css-element-function.js133074899555342619 0
 107C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\ary.js133074899559322625 0
 110C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\assign.js133074899559362597 0
-125C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\css-tree\lib\tokenizer\const.js133074899537714410 0
 112C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\assignIn.js133074899559412593 0
 116C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\_getFuncName.js133074899556592598 0
 115C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\codeframe\lib133074899540324399 1
@@ -4350,8 +4367,8 @@
 150C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\markdown-ansi\node_modules\ansi-styles\readme.md133074899526504390 0
 149C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\transformer-posthtml\src\PostHTMLTransformer.js133074899528614411 0
 109C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\every.js133074899561852592 0
-114C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\extendWith.js133074899561932598 0
 141C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\css-tree\lib\tokenizer\char-code-definitions.js133074899535774404 0
+114C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\extendWith.js133074899561932598 0
 108C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\fill.js133074899561982588 0
 116C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\fp\takeWhile.js133074899571032606 0
 110C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\filter.js133074899562012592 0
@@ -4636,7 +4653,6 @@
 114C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\updateWith.js133074899572112594 0
 138C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\caniuse-lite\data\features\filereadersync.js133074899559942593 0
 113C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\upperCase.js133074899572132582 0
-108C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\util.js133074899572202582 0
 109C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\value.js133074899572212588 0
 105C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\.bin\nanoid133074899575282618 0
 111C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\valueOf.js133074899572242594 0
@@ -4647,8 +4663,6 @@
 135C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\cosmiconfig\dist\getPropertyByPath.js.map133074899538584385 0
 118C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\wrapperReverse.js133074899572482589 0
 109C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\xorBy.js133074899572552581 0
-149C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\node-resolver-core\test\fixture\nested\index.js133074899540454410 0
-111C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\xorWith.js133074899572572599 0
 110C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\_apply.js133074899525434397 0
 118C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\css-what\lib\es\types.js133074899533604393 0
 120C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\_arrayAggregator.js133074899526594390 0
@@ -4775,8 +4789,8 @@
 116C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\_cloneBuffer.js133074899553652605 0
 118C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\_cloneDataView.js133074899553752600 0
 116C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\_cloneRegExp.js133074899553852609 0
-114C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\debug\src\browser.js133074899523704435 0
 120C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\css-tree\lib\syntax\config133074899554492587 1
+114C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\debug\src\browser.js133074899523704435 0
 116C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\_cloneSymbol.js133074899554042597 0
 151C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\htmlnano\docs\versioned_docs\version-1.1.1\040-presets.md133074899545734389 0
 142C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@swc\helpers\lib\_check_private_redeclaration.js133074899534144394 0
@@ -5095,9 +5109,9 @@
 132C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\core\lib\errors\config-error.js133074899546494408 0
 153C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\transformer-posthtml\node_modules\semver\bin\semver133074899524034391 0
 146C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@jridgewell\trace-mapping\dist\trace-mapping.mjs.map133074899528274394 0
-115C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\fp\isNative.js133074899566652608 0
-121C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\css-tree\lib\utils\names.js133074899550722589 0
 128C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\css-what\lib\commonjs\stringify.js133074899531054386 0
+121C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\css-tree\lib\utils\names.js133074899550722589 0
+115C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\fp\isNative.js133074899566652608 0
 115C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\fp\subtract.js133074899570722588 0
 119C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\fp\isObjectLike.js133074899566782605 0
 134C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\chrome-trace-event\dist\trace-event.d.ts133074899529944426 0
@@ -5186,7 +5200,6 @@
 113C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\fp\remove.js133074899569582595 0
 133C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\helper-plugin-utils\lib\index.js133074899525624400 0
 113C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\fp\repeat.js133074899569612591 0
-128C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\core\lib\config\full.js.map133074899541294389 0
 111C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\fp\rest.js133074899569662599 0
 113C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lodash\fp\sample.js133074899569822592 0
 146C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\runtime\helpers\esm\skipFirstGeneratorNext.js133074899552902595 0
@@ -5318,9 +5331,9 @@
 137C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lmdb\node_modules\node-addon-api\napi-inl.h133074899533124416 0
 125C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\types\lib\clone\clone.js133074899541694412 0
 133C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lmdb\node_modules\node-addon-api\napi.h133074899534444410 0
-125C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\css-tree\lib\tokenizer\utils.js133074899554082598 0
-139C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lmdb\node_modules\node-addon-api\node_api.gyp133074899521994412 0
 149C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\sample-mdb.txt133074899555332651 0
+139C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lmdb\node_modules\node-addon-api\node_api.gyp133074899521994412 0
+125C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\css-tree\lib\tokenizer\utils.js133074899554082598 0
 147C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lmdb\node_modules\node-addon-api\package-support.json133074899537114394 0
 141C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\runtime\helpers\interopRequireDefault.js133074899554902596 0
 139C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lmdb\node_modules\node-addon-api\package.json133074899537464391 0
@@ -5388,8 +5401,6 @@
 145C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mdb_drop.c133074899542094403 0
 129C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@swc\helpers\lib\_inherits_loose.js133074899542924395 0
 145C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mdb_dump.c133074899542534397 0
-121C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\transformer-raw\src133074899525504419 1
-145C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mdb_load.c133074899542824385 0
 145C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mdb_stat.1133074899539914387 0
 168C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\transformer-react-refresh-wrap\node_modules\react-refresh\babel.js133074899523384406 0
 145C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mdb_stat.c133074899543434394 0
@@ -5768,8 +5779,11 @@
 132C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\transformer-html\src\inline.js133074899531274384 0
 112C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\css-tree\lib\lexer133074899553572612 1
 113C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\css-tree\lib\walker133074899548604384 1
+121C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\css-tree\lib\utils\clone.js133074899536784399 0
+120C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\core\lib\worker.js133074899556042602 0
 123C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@lmdb\lmdb-win32-x64\index.js133074899519104404 0
 133C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\css-tree\lib\utils\createCustomError.js133074899540414382 0
+125C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\css-tree\lib\tokenizer\const.js133074899537714410 0
 122C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\css-tree\lib\syntax\index.js133074899546614383 0
 120C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\css-tree\lib\syntax\pseudo133074899552882597 1
 119C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\css-tree\lib\syntax\scope133074899554272611 1
@@ -5824,7 +5838,7 @@
 134C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\css-tree\lib\syntax\node\UnicodeRange.js133074899553782584 0
 126C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@swc\helpers\src\_instanceof.mjs133074899554462614 0
 125C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\css-tree\lib\syntax\node\Url.js133074899553902589 0
-104C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\dist\index.34b7aba5.css133074901894412066 0
+104C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\dist\index.34b7aba5.css133074953103976167 0
 127C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\css-tree\lib\syntax\node\Value.js133074899554212620 0
 129C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\css-tree\lib\syntax\function\var.js133074899554402637 0
 129C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\css-tree\lib\syntax\config\lexer.js133074899548884384 0
@@ -5866,8 +5880,8 @@
 117C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\core\index.d.ts133074899557442599 0
 129C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\css-tree\lib\generator\sourceMap.js133074899552962591 0
 139C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\css-tree\lib\definition-syntax\SyntaxError.js133074899553362608 0
-132C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\css-tree\lib\definition-syntax\walk.js133074899554452595 0
 138C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\core\lib\config\config-descriptors.js133074899534104392 0
+132C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\css-tree\lib\definition-syntax\walk.js133074899554452595 0
 136C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\types\lib\validators\isScope.js.map133074899556912598 0
 126C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\css-tree\lib\convertor\create.js133074899538364403 0
 125C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\core\src\Environment.js133074899546474378 0
@@ -7051,7 +7065,7 @@
 125C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\workers\lib\Profiler.js133074899540294385 0
 121C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\workers\lib\threads133074899541384391 1
 122C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\workers\lib\Trace.js133074899541804430 0
-108C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\dist\index.34b7aba5.css.map133074901894522057 0
+108C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\dist\index.34b7aba5.css.map133074953104066198 0
 123C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\workers\lib\Worker.js133074899542464409 0
 137C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\workers\lib\threads\ThreadsChild.js133074899541114378 0
 138C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\workers\lib\threads\ThreadsWorker.js133074899541424407 0
@@ -7683,9 +7697,6 @@
 139C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\core\test\ParcelConfigRequest.test.js133074899552342607 0
 131C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\core\test\PublicAsset.test.js133074899552922586 0
 144C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\core\test\PublicMutableBundleGraph.test.js133074899553142597 0
-134C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\core\test\RequestTracker.test.js133074899553552626 0
-133C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\core\lib\transformation\index.js133074899551982609 0
-143C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\core\src\config\resolve-targets-browser.ts133074899553812596 0
 130C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\core\test\fixtures\bundle.js133074899541704407 0
 135C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\core\test\fixtures\common-targets133074899556472587 1
 127C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\core\test\fixtures\config133074899534184392 1
@@ -7825,7 +7836,7 @@
 135C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\types\lib\builders\validateNode.js133074899541284383 0
 122C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\cache\src\FSCache.js133074899525794435 0
 120C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\cache\src\index.js133074899532874402 0
-96C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\dist\index.html133074901894462076 0
+96C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\dist\index.html133074937965479645 0
 124C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\cache\src\LMDBCache.js133074899533944394 0
 122C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\cache\lib\FSCache.js133074899523944404 0
 131C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@parcel\cache\lib\IDBCache.browser.js133074899527094386 0
@@ -7927,8 +7938,6 @@
 131C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@emotion\is-prop-valid\src\index.d.ts133074899535864387 0
 119C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\traverse\README.md133074899523224406 0
 134C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@emotion\is-prop-valid\dist\declarations133074899535144390 1
-144C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\.bin\node-gyp-build-optional-packages-optional.ps1133074899575292623 0
-155C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@emotion\is-prop-valid\dist\emotion-is-prop-valid.cjs.prod.js133074899528254398 0
 150C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@emotion\is-prop-valid\dist\emotion-is-prop-valid.esm.js133074899529994396 0
 138C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@emotion\is-prop-valid\dist\declarations\src133074899534624394 1
 140C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@emotion\is-prop-valid\dist\declarations\types133074899535344399 1
@@ -8260,9 +8269,11 @@
 139C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\core\lib\errors\rewrite-stack-trace.js133074899546734407 0
 143C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\core\lib\errors\rewrite-stack-trace.js.map133074899548354404 0
 138C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\core\lib\config\cache-contexts.js.map133074899528884390 0
+132C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\core\lib\config\config-chain.js133074899532324386 0
 136C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\core\lib\config\config-chain.js.map133074899533624419 0
 122C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\core\lib\config\files133074899540874385 1
 124C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\core\lib\config\full.js133074899541084399 0
+128C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\core\lib\config\full.js.map133074899541294389 0
 124C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\core\lib\config\helpers133074899542464409 1
 128C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\core\lib\config\item.js.map133074899543184419 0
 127C:\Users\silve\OneDrive\Documentos\Estudos\ProgII\App_corrida\Web_Mobile_Corrida\node_modules\@babel\core\lib\config\partial.js133074899543534408 0
