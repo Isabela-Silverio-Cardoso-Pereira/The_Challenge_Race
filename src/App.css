@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-#root {
-  height: 100%
-}
+
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   position: relative;
 }
-html, body {
+html, body, #root {
   height: 100%;
 }
 body {
@@ -17,19 +15,23 @@ body {
   font-size: 0.96rem;
   font-weight: 300;
 }
+header{
+  position: relative;
+  min-height: 100vh;
+}
 footer {
-  width: 100%;
-  height: 100px;
   position: absolute;
   bottom: 0;
-  left: 0;
+  width: 100%;
+  height: 2.5rem;
 }
 .fInputTxt {
-  display:flex;
-  align-items: center;
+  display: flex;
+  height: 100%;
   justify-content: center;
-  text-align: center;
-  height: 100vh;
+  margin: 0 15px;
+  flex-direction: column;
+  height: 34rem;
 }
 .headline {
   display: flex;
@@ -137,18 +139,17 @@ footer {
 }
 
 .btn-enter {
-  position: absolute;
   font-family: 'Montserrat', sans-serif;
-  border: transparent;
-  font-style: normal;
-  font-weight: 500;
   font-size: 20px;
-  line-height: 16px;
+  border: transparent;
   color: #fff;
   width: 150px;
   height: 40px;
   left: 104px;
-  top: 475px;
   background: #BF1E2E;
   border-radius: 5px;
+  text-decoration: none;
+  padding: 5px 24px;
+  margin: 4px;
+  text-align: center;
 }
