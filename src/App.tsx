@@ -106,52 +106,60 @@ function Scan(){
 }
 
 function Quiz(){
-  // setup the step content
-const step1Content = <h1>Step 1 Content</h1>;
-const step2Content = <h1>Step 2 Content</h1>;
-const step3Content = <h1>Step 3 Content</h1>;
+  const onSubmit = () => { //colocar cooldown
+    alert('submit data');
+  }
+  // colocar esqueleto e perguntas
+  const step1Content = <h1>Step 1</h1>;
+  const step2Content = <h1>Step 2</h1>;
+  const step3Content = <h1>Step 3</h1>;
+  const step4Content = <h1>Step 4</h1>;
 
-// setup step validators, will be called before proceeding to the next step
+//colocar acertos e erros
 function step2Validator() {
-  // return a boolean
+  return true;
 }
 
 function step3Validator() {
-  // return a boolean
+  return true;
 }
-
 function onFormSubmit() {
-  // handle the submit logic here
-  // This function will be executed at the last step
-  // when the submit button (next button in the previous steps) is pressed
-}
 
+}
 
   return <>
-    <StepProgressBar
-  startingStep={0}
-  onSubmit={onFormSubmit}
-  steps={[
-    {
-      label: 'Step 1',
-      subtitle: '10%',
-      name: 'step 1',
-      content: step1Content
-    },
-    {
-      label: 'Step 2',
-      subtitle: '50%',
-      name: 'step 2',
-      content: step2Content,
-    },
-    {
-      label: 'Step 3',
-      subtitle: '100%',
-      name: 'step 3',
-      content: step3Content,
-    }
-  ]}
-/>;
-  </>
+    <div className="app">
+        <StepProgressBar
+          startingStep={0}
+          wrapperClass="progress-wrapper-custom"
+          onSubmit={onSubmit}
+          submitBtnName="Finalizar"
+          previousBtnName="Voltar"
+          nextBtnName="Ok"
+          steps={[
+            {
+              label: '',
+              name: 'step 1',
+              content: step1Content
+            },
+            {
+              label: '',
+              name: 'step 2',
+              content: step2Content,
+            },
+            {
+              label: '',
+              name: 'step 3',
+              content: step3Content,
+            },
+            {
+              label: '',
+              name: 'step 4',
+              content: step4Content
+            }
+          ]}
+        />
+      </div>
+    </>
 }
 export default App
