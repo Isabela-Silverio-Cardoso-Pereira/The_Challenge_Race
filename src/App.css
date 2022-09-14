@@ -9,7 +9,8 @@
 }
 html, body, #root {
   height: 100%;
-  overflow-y: hidden;
+  overflow: hidden;
+  margin: 0;
 }
 body {
   background: #fff;
@@ -168,35 +169,50 @@ footer {
   top: 142px;
   background: #E3E3E3;
   border-radius: 15px;
+  margin-top: -6rem;
   }
   .central {
     text-align: center;
     justify-content: center;
     align-items: center;
   }
-  ._3uApM {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 41rem;
-}
 .questionTheme {
+  position: absolute;
 
 }
 .imgMath {
-  height: 18rem;
-  width: 18rem;
+  width: 25rem;
+  right: 41px;
+  height: 20rem;
 }
 .imgHis {
-  width: 16rem;
+  width: 29rem;
+  right: 70px;
+  height: 20rem;
 }
 .imgFil {
-  width: 14rem;
+  width: 29rem;
+  right: 67px;
+  height: 20rem;
 }
 .imgNat {
-  width: 42rem;
+  width: 29rem;
+  right: 67px;
+  height: 20rem;
 
 }
 .imgGeral {
   width: 19rem;
 }
+.questionText {
+  margin-top: 22rem;
+  margin-left: 0rem;
+}
+.A {
+  background-color: #fff;
+  border:#BF1E2E;
+}
+/* .answers {
+  margin-top: 28rem;
+  left: -15rem;
+} */
