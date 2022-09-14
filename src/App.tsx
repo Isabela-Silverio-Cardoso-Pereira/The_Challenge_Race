@@ -4,6 +4,12 @@ import styled from "styled-components";
 import StepProgressBar from 'react-step-progress';
 import 'react-step-progress/dist/index.css';
 
+import humanas from "./assets/humanas.svg"
+import exatas from "./assets/math.svg"
+import filos from "./assets/sofis.svg"
+import natura from "./assets/evolution.svg"
+import geral from "./assets/apollo.svg"
+
 
 const NavUnlisted = styled.ul`
   text-decoration: none;
@@ -110,10 +116,51 @@ function Quiz(){
     alert('submit data');
   }
   // colocar esqueleto e perguntas
-  const step1Content = <h1>Step 1</h1>;
-  const step2Content = <h1>Step 2</h1>;
-  const step3Content = <h1>Step 3</h1>;
-  const step4Content = <h1>Step 4</h1>;
+  const step1Content = 
+  <div className="back">
+    <h1 className="questionTheme">
+        Ciências Exata
+      </h1>
+    <div className="bg">
+      <img src={exatas} className="imgMath"></img>
+    </div>
+  </div>;
+  const step2Content = 
+  <div className="back">
+    <h1 className="questionTheme">
+        Ciências Humanas
+      </h1>
+    <div className="bg">
+      <img src={humanas} className="imgHis"></img>
+    </div>
+  </div>;
+  const step3Content = 
+  <div className="back">
+    <h1 className="questionTheme">
+        Ciências Naturais
+      </h1>
+    <div className="bg">
+      <img src={natura} className="imgNat"></img>
+    </div>
+  </div>;
+  const step4Content = 
+  <div className="back">
+    <h1 className="questionTheme">
+        Conhecimento Geral
+      </h1>
+    <div className="bg">
+      <img src={geral} className="imgGeral"></img>
+    </div>
+  </div>;
+  const step5Content = 
+  <div className="back">
+    <h1 className="questionTheme">
+        Filosofia
+      </h1>
+    <div className="bg">
+      <img src={filos} className="imgFil"></img>
+    </div>
+  </div>;
 
 //colocar acertos e erros
 function step2Validator() {
@@ -156,6 +203,11 @@ function onFormSubmit() {
               label: '',
               name: 'step 4',
               content: step4Content
+            },
+            {
+              label: '',
+              name: 'step 5',
+              content: step5Content
             }
           ]}
         />
