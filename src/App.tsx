@@ -129,12 +129,12 @@ function Quiz(){
         77 + 33 e 11 * 11 são respectivamente:
       </h2>
     </div>
-    <div className="alternatives">
+    {/* <div className="alternatives">
       <div className="A"><h2 className='answers'>A - 100 e 121</h2></div>
       <div className="B"><h2 className='answers'>B - 120 e 111</h2></div>
       <div className="C"><h2 className='answers'>C - 110 e 122</h2></div>
       <div className="D"><h2 className='answers'>D - 110 e 121</h2></div>
-    </div>
+    </div> */}
   </div>;
   const step2Content = 
   <div className="back">
@@ -149,12 +149,12 @@ function Quiz(){
         Qual estado Brasileiro é maior em extenção territorial?
       </h2>
     </div>
-    <div className="alternatives">
+    {/* <div className="alternatives">
       <div className="A"><h2 className='answers'>A - Mato Grosso</h2></div>
       <div className="B"><h2 className='answers'>B - São Paulo</h2></div>
       <div className="C"><h2 className='answers'>C - Minas Gerais</h2></div>
       <div className="D"><h2 className='answers'>D - Amazonas</h2></div>
-    </div>
+    </div> */}
   </div>;
   const step3Content = 
   <div className="back">
@@ -170,10 +170,10 @@ function Quiz(){
       </h2>
     </div>
     <div className="alternatives">
-      <div className="A"><h2 className='answers'>A - XX</h2></div>
+      {/* <div className="A"><h2 className='answers'>A - XX</h2></div>
       <div className="B"><h2 className='answers'>B - XY</h2></div>
       <div className="C"><h2 className='answers'>C - Xx</h2></div>
-      <div className="D"><h2 className='answers'>D - Yy</h2></div>
+      <div className="D"><h2 className='answers'>D - Yy</h2></div> */}
     </div>
   </div>;
   const step4Content = 
@@ -189,12 +189,12 @@ function Quiz(){
         Qual dessas cidades recebem mais turistas estrangeiros?
       </h2>
     </div>
-    <div className="alternatives">
+    {/* <div className="alternatives">
       <div className="A"><h2 className='answers'>A - Cuiabá</h2></div>
       <div className="B"><h2 className='answers'>B - Ceará</h2></div>
       <div className="C"><h2 className='answers'>C - Rio de Janeiro</h2></div>
       <div className="D"><h2 className='answers'>D - Balneário Camboriú</h2></div>
-    </div>
+    </div> */}
   </div>;
   const step5Content = 
   <div className="back">
@@ -209,12 +209,12 @@ function Quiz(){
       Qual foi o recurso utilizado inicialmente pelo homem para explicar a origem das coisas?
       </h2>
     </div>
-    <div className="alternatives">
+    {/* <div className="alternatives">
       <div className="A"><h2 className='answers'>A - A mitologia</h2></div>
       <div className="B"><h2 className='answers'>B - A filosofia</h2></div>
       <div className="C"><h2 className='answers'>C - A matematica</h2></div>
       <div className="D"><h2 className='answers'>D - A biologia</h2></div>
-    </div>
+    </div> */}
   </div>;
 
 //colocar acertos e erros

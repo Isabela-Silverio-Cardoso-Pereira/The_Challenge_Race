@@ -164,8 +164,10 @@ footer {
 }
 .bg {
   position: absolute;
-  width: 330px;
-  height: 300px;
+  /* width: 330px; desktop
+  height: 300px; */
+  width: 249px;   /* notebook*/
+  height: 200px; /* notebook*/
   top: 142px;
   background: #E3E3E3;
   border-radius: 15px;
@@ -181,32 +183,43 @@ footer {
 
 }
 .imgMath {
-  width: 25rem;
   right: 41px;
-  height: 20rem;
+  /* width: 25rem; desktop
+  height: 20rem; */
+  width: 20rem; /*notebook*/
+  height: 14rem; /*notebook*/
 }
 .imgHis {
-  width: 29rem;
   right: 70px;
-  height: 20rem;
+  /* width: 29rem; desktop
+  height: 20rem; */
+  width: 24rem; /*notebook*/
+  height: 14rem; /*notebook*/
 }
 .imgFil {
-  width: 29rem;
   right: 67px;
-  height: 20rem;
+  /* width: 29rem; desktop
+  height: 20rem; */
+  width: 24rem;
+  height: 14rem;
 }
 .imgNat {
-  width: 29rem;
   right: 67px;
-  height: 20rem;
+  /* width: 29rem; desktop
+  height: 20rem; */
+  width: 24rem; /*notebook*/
+  height: 14rem; /*notebook*/
 
 }
 .imgGeral {
-  width: 19rem;
+  /* width: 19rem; desktop*/ 
+  width: 12rem; /*notebook*/
 }
 .questionText {
-  margin-top: 22rem;
-  margin-left: 0rem;
+  /* margin-top: 22rem; desktop
+  margin-left: 0rem; */
+  margin-top: 16rem; /*notebook*/
+  font-size: 16px;  /*notebook*/
 }
 .A {
   background-color: #fff;
