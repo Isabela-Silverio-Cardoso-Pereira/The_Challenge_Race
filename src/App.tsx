@@ -129,12 +129,12 @@ function Quiz(){
         77 + 33 e 11 * 11 são respectivamente:
       </h2>
     </div>
-    {/* <div className="alternatives">
+    <div className="alternatives">
       <div className="A"><h2 className='answers'>A - 100 e 121</h2></div>
       <div className="B"><h2 className='answers'>B - 120 e 111</h2></div>
       <div className="C"><h2 className='answers'>C - 110 e 122</h2></div>
       <div className="D"><h2 className='answers'>D - 110 e 121</h2></div>
-    </div> */}
+    </div>
   </div>;
   const step2Content = 
   <div className="back">

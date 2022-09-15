@@ -109,7 +109,7 @@
   justify-content: space-between;
   align-items: center;
   /* margin-top: 16rem; desktop */
-  margin-top: 10rem; /* notebook*/
+  margin-top: 27rem; /* notebook*/
   display: flex;
   position: fixed;
 }
@@ -135,6 +135,7 @@
   color: #fff;
   background-color: #bf1e2e;
   border: 1px solid #bf1e2e;
+  margin-left: 0rem;
 }
 
 ._hsN1w:hover {
@@ -144,6 +145,7 @@
 }
 
 ._2pGos._2RWmX {
+  visibility: hidden;
   pointer-events: none;
   -webkit-filter: opacity(.7);
   filter: opacity(.7);

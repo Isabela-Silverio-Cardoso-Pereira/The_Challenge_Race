@@ -220,11 +220,40 @@ footer {
   margin-left: 0rem; */
   margin-top: 16rem; /*notebook*/
   font-size: 16px;  /*notebook*/
+  position: absolute;
+  margin-left: -4rem;
 }
-.A {
-  background-color: #fff;
-  border:#BF1E2E;
+.A, .B, .C, .D {
+    width: 153px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 10rem;
+    border: 0.74359px solid #BF1E2E;
+    margin-left: -13rem;
+    position: absolute;
+    top: 142px;
+    
 }
+.A{
+  margin-top: 11rem;
+  margin-left: -11rem;
+}
+.B{
+  margin-top: 11rem;
+  margin-left: 1rem;
+}
+.C{
+  margin-top: 15rem;
+  margin-left: -11rem;
+}
+.D{
+  margin-top: 15rem;
+  margin-left: 1rem;
+}
+
 /* .answers {
   margin-top: 28rem;
   left: -15rem;
