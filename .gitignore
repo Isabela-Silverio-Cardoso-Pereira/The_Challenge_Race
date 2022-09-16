@@ -7,6 +7,9 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+.parcel-cache
+.parcel-cache/data.mdb
+.parcel-cache/lock.mdb
 node_modules
 dist
 dist-ssr

@@ -164,10 +164,8 @@ footer {
 }
 .bg {
   position: absolute;
-  /* width: 330px; desktop
-  height: 300px; */
-  width: 249px;   /* notebook*/
-  height: 200px; /* notebook*/
+  width: 249px;   
+  height: 200px; 
   top: 142px;
   background: #E3E3E3;
   border-radius: 15px;
@@ -184,36 +182,27 @@ footer {
 }
 .imgMath {
   right: 41px;
-  /* width: 25rem; desktop
-  height: 20rem; */
-  width: 20rem; /*notebook*/
-  height: 14rem; /*notebook*/
+  width: 20rem;
+  height: 14rem; 
 }
 .imgHis {
   right: 70px;
-  /* width: 29rem; desktop
-  height: 20rem; */
-  width: 24rem; /*notebook*/
-  height: 14rem; /*notebook*/
+  width: 24rem; 
+  height: 14rem; 
 }
 .imgFil {
   right: 67px;
-  /* width: 29rem; desktop
-  height: 20rem; */
   width: 24rem;
   height: 14rem;
 }
 .imgNat {
   right: 67px;
-  /* width: 29rem; desktop
-  height: 20rem; */
-  width: 24rem; /*notebook*/
-  height: 14rem; /*notebook*/
+  width: 24rem; 
+  height: 14rem; 
 
 }
 .imgGeral {
-  /* width: 19rem; desktop*/ 
-  width: 12rem; /*notebook*/
+  width: 12rem; 
 }
 .questionText {
   /* margin-top: 22rem; desktop
@@ -221,40 +210,105 @@ footer {
   margin-top: 16rem; /*notebook*/
   font-size: 16px;  /*notebook*/
   position: absolute;
-  margin-left: -4rem;
+  margin-left: -11rem;
+  padding: 2px;
+  width: 349px;
+  position: absolute;
 }
 .A, .B, .C, .D {
-    width: 153px;
-    height: 32px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border-radius: 4px;
-    margin-top: 10rem;
-    border: 0.74359px solid #BF1E2E;
-    margin-left: -13rem;
-    position: absolute;
-    top: 142px;
+  width: 153px;
+  height: 32px;
+  border: 0.74359px solid #bf1e2e;
+  border-radius: 4px;
+  margin-top: 10rem;
+  margin-left: -13rem;
+  position: absolute;
+  top: 142px;
     
 }
 .A{
   margin-top: 11rem;
   margin-left: -11rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .B{
   margin-top: 11rem;
   margin-left: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .C{
   margin-top: 15rem;
   margin-left: -11rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .D{
   margin-top: 15rem;
   margin-left: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-/* .answers {
-  margin-top: 28rem;
-  left: -15rem;
-} */
+.alternatives {
+  width: 100%;
+  height: 100%;
+}
+@media only screen and (min-width: 340px) {
+  .bg {
+    width: 330px; 
+    height: 300px;
+  }
+  .imgMath {
+    width: 25rem; 
+    height: 20rem;
+  }
+  .imgHis {
+    width: 29rem; 
+    height: 20rem;
+  }
+  .imgFil {
+    width: 29rem; 
+    height: 20rem;
+  }
+  .imgNat {
+    width: 29rem; 
+    height: 20rem;
+  
+  }
+  .imgGeral {
+    width: 19rem;  
+  }
+  .questionText {
+    margin-top: 22rem;
+    margin-left: -27px;
+}
+  .A, .B, .C, .D {
+    width: 176px;
+    font-size: 12px;
+    height: 75px;
+  }
+  .A {
+    margin-top: 20rem;
+    margin-left: -2.1rem;
+  }
+  .B {
+    margin-top: 20rem;
+    margin-left: 9.6rem;
+  }
+  .C {
+    margin-top: 26rem;
+    margin-left: -2.1rem;
+  }
+  .D {
+    margin-top: 26rem;
+    margin-left: 9.6rem;
+  }
+  .questionTheme {
+    width: 303px;
+}
+}

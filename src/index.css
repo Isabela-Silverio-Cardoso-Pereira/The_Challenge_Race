@@ -108,8 +108,7 @@
 ._3uApM {
   justify-content: space-between;
   align-items: center;
-  /* margin-top: 16rem; desktop */
-  margin-top: 27rem; /* notebook*/
+  margin-top: 27rem; 
   display: flex;
   position: fixed;
 }
@@ -119,7 +118,11 @@
   border-radius: .25rem;
   padding: .75rem 1rem;
   transition: all .2s ease-in-out;
-  margin-left: 71px;
+  margin-left: 71px; 
+  width: 150px;
+  margin-top: 1rem;
+  text-align: center;
+  border-radius: 18px;
 }
 
 ._3CDiP {
@@ -150,6 +153,9 @@
   -webkit-filter: opacity(.7);
   filter: opacity(.7);
   cursor: default;
+}
+._2pGos._3CDiP {
+  visibility: hidden;
 }
 
 @keyframes _JAh3L {
@@ -204,4 +210,19 @@
   100% {
     transform: translateX(0);
   }
+}
+@media only screen and (min-width: 340px) {
+  ._3uApM {
+    margin-top: 39rem;
+  }
+  ._2pGos {
+    margin-left: -29px;
+    padding: 0.75rem 1rem;
+    transition: all .2s ease-in-out;
+    width: 150px;
+    margin-top: 1rem;
+    text-align: center;
+    border-radius: 18px;
+  }
+  
 }
