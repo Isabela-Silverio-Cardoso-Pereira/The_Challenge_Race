@@ -9,6 +9,7 @@ import exatas from "./assets/math2.svg"
 import filos from "./assets/filo.svg"
 import natura from "./assets/natura.svg"
 import geral from "./assets/apollo.svg"
+import { useState } from 'react';
 
 
 const NavUnlisted = styled.ul`
@@ -112,6 +113,17 @@ function Scan(){
 }
 
 function Quiz(){
+  function changeStyle(): void{
+    var element = window.document.getElementById("myDiv");
+    if (element === null) {
+
+    } else {
+      // since you've done the nullable check
+      // TS won't complain from this point on
+      element.style.backgroundColor = "#00FF00";
+    }
+    
+}
   const onSubmit = () => { //colocar cooldown
     alert('submit data');
   }
@@ -126,14 +138,14 @@ function Quiz(){
     </div>
     <div className="question">
       <h2 className="questionText">
-      Uma cobra está percorrendo uma caverna de 10 metros. Durante o dia, ela consegue andar dois metros. Porém, todas as noites, ela volta um metro. Em quanto tempo ela conseguirá chegar ao final da caverna?
+      77 + 33 e 11 * 11 são respectivamente:
       </h2>
     </div>
     <div className="alternatives">
-      <div className="A"><h2 className='answers'>A - 100 e 121</h2></div>
-      <div className="B"><h2 className='answers'>B - 120 e 111</h2></div>
-      <div className="C"><h2 className='answers'>C - 110 e 122</h2></div>
-      <div className="D"><h2 className='answers'>D - 110 e 121</h2></div>
+      <a href="#" className="A" id='answers' onClick={() => changeStyle()}>A - 100 e 121</a>
+      <a href="#" className="B" id='answers' onClick={() => changeStyle()}>B - 120 e 111</a>
+      <a href="#" className="C" id='answers' onClick={() => changeStyle()}>C - 110 e 122</a>
+      <a href="#" className="D" id='answers' onClick={() => changeStyle()}>D - 110 e 121</a>
     </div>
   </div>;
   const step2Content = 
@@ -150,10 +162,10 @@ function Quiz(){
       </h2>
     </div>
     <div className="alternatives">
-      <div className="A"><h2 className='answers'>A - Mato Grosso</h2></div>
-      <div className="B"><h2 className='answers'>B - São Paulo</h2></div>
-      <div className="C"><h2 className='answers'>C - Minas Gerais</h2></div>
-      <div className="D"><h2 className='answers'>D - Amazonas</h2></div>
+      <a href="#" className="A" id='answers' onClick={() => changeStyle()}>A - Mato Grosso</a>
+      <a href="#" className="B" id='answers' onClick={() => changeStyle()}>B - São Paulo</a>
+      <a href="#" className="C" id='answers' onClick={() => changeStyle()}>C - Minas Gerais</a>
+      <a href="#" className="D" id='answers' onClick={() => changeStyle()}>D - Amazonas</a>
     </div>
   </div>;
   const step3Content = 
@@ -170,10 +182,10 @@ function Quiz(){
       </h2>
     </div>
     <div className="alternatives">
-      <div className="A"><h2 className='answers'>A - XX</h2></div>
-      <div className="B"><h2 className='answers'>B - XY</h2></div>
-      <div className="C"><h2 className='answers'>C - Xx</h2></div>
-      <div className="D"><h2 className='answers'>D - Yy</h2></div>
+      <a href="#" className="A" id='answers' onClick={() => changeStyle()}>A - XX</a>
+      <a href="#" className="B" id='answers' onClick={() => changeStyle()}>B - XY</a>
+      <a href="#" className="C" id='answers' onClick={() => changeStyle()}>C - Xx</a>
+      <a href="#" className="D" id='answers' onClick={() => changeStyle()}>D - Yy</a>
     </div>
   </div>;
   const step4Content = 
@@ -190,10 +202,10 @@ function Quiz(){
       </h2>
     </div>
     <div className="alternatives">
-      <div className="A"><h2 className='answers'>A - Cuiabá</h2></div>
-      <div className="B"><h2 className='answers'>B - Ceará</h2></div>
-      <div className="C"><h2 className='answers'>C - Rio de Janeiro</h2></div>
-      <div className="D"><h2 className='answers'>D - Balneário Camboriú</h2></div>
+      <a href="#" className="A" id='answers' onClick={() => changeStyle()}>A - Cuiabá</a>
+      <a href="#" className="B" id='answers' onClick={() => changeStyle()}>B - Ceará</a>
+      <a href="#" className="C" id='answers' onClick={() => changeStyle()}>C - Rio de Janeiro</a>
+      <a href="#" className="D" id='answers' onClick={() => changeStyle()}>D - Balneário Camboriú</a>
     </div>
   </div>;
   const step5Content = 
@@ -210,16 +222,19 @@ function Quiz(){
       </h2>
     </div>
       <div className="alternatives">
-        <div className="A"><h2 className='answers'>A - A mitologia</h2></div>
-        <div className="B"><h2 className='answers'>B - A filosofia</h2></div>
-        <div className="C"><h2 className='answers'>C - A matematica</h2></div>
-        <div className="D"><h2 className='answers'>D - A biologia</h2></div>
+      <a href="#" className="A" id='answers' onClick={() => changeStyle()}>A - A mitologia</a>
+      <a href="#" className="B" id='answers' onClick={() => changeStyle()}>B - A filosofia</a>
+      <a href="#" className="C" id='answers' onClick={() => changeStyle()}>C - A matematica</a>
+      <a href="#" className="D" id='answers' onClick={() => changeStyle()}>D - A biologia</a>
       </div>
   </div>;
 
 //colocar acertos e erros
-function step2Validator() {
-  return true;
+
+function validator(){
+
+  
+
 }
 
 function step3Validator() {
@@ -242,7 +257,8 @@ function onFormSubmit() {
             {
               label: '',
               name: 'step 1',
-              content: step1Content
+              content: step1Content,
+              // validator: validator
             },
             {
               label: '',
@@ -262,7 +278,8 @@ function onFormSubmit() {
             {
               label: '',
               name: 'step 5',
-              content: step5Content
+              content: step5Content,
+              
             }
           ]}
         />
@@ -270,3 +287,7 @@ function onFormSubmit() {
     </>
 }
 export default App
+function getElementByClassName(arg0: string) {
+  throw new Error('Function not implemented.');
+}
+
