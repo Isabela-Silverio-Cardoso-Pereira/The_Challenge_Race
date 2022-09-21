@@ -144,21 +144,29 @@ footer {
     d: path("M0,12 L226,12 C220,12 220.666667,12 228,12 C239,12 245,17 253,17 C261,17 268,12 278,12 C284.666667,12 285.333333,12 280,12");
   }
 }
+.btnParent {
+  text-align: center;
+}
 
 .btn-enter {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   border: transparent;
-  color: #fff;
-  width: 150px;
   height: 40px;
-  left: 104px;
   background: #BF1E2E;
   border-radius: 5px;
   text-decoration: none;
   padding: 5px 24px;
   margin-top: 3rem;
   text-align: center;
+}
+.historic{
+  border: 2px solid #bf1e2e;
+  background: #fff;
+}
+.newRace {
+  
+  width: 18rem;
 }
 .win {
   margin-top: 24rem;

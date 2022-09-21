@@ -23,6 +23,11 @@ const linkStyle = {
   textDecoration: "none",
   
 }
+const linkStyle1 = {
+  color: '#000',
+  textDecoration: "none",
+  
+}
 function App() {
   
 
@@ -49,13 +54,13 @@ function Home() {
         <div className="headline">
             <h1>Bem-Vindo</h1>
             <div className="subtitle">
-                <span>Digite o código da corrida</span>
+                <span>O que deseja fazer?</span>
             </div>
         </div>
 
         <div className="fInputTxt">
           <label htmlFor="inp" className="inp">
-            <input type="password" id="inp" placeholder="Código" pattern=".{6,}" required></input>
+            <input type="password" id="inp" placeholder="Game PIN" pattern=".{6,}" required></input>
             <svg width="280px" height="18px" viewBox="0 0 280 18" className="border">
                 <path d="M0,12 L223.166144,12 C217.241379,12 217.899687,12 225.141066,12 C236.003135,12 241.9279,12 249.827586,12 C257.727273,12 264.639498,12 274.514107,12 C281.097179,12 281.755486,12 276.489028,12"></path>
             </svg>
@@ -63,11 +68,25 @@ function Home() {
                 <path d="M1 7 5.5 11 L13 1"></path>
             </svg>
           </label>
-          <NavUnlisted>
-            <button className="btn-enter">
-              <Link style={linkStyle} to="/scan">Entrar</Link>
-            </button>
-          </NavUnlisted>
+          <div className="btnParent">
+              <NavUnlisted>
+                <button className="btn-enter">
+                  <Link style={linkStyle} to="/scan">Entrar</Link>
+                </button>
+              </NavUnlisted>
+
+              <NavUnlisted>
+              <button className="btn-enter newRace">
+                  <Link style={linkStyle} to="">CRIAR NOVA CORRIDA</Link>
+              </button>
+              </NavUnlisted>
+
+              <NavUnlisted>
+              <button className="btn-enter historic">
+                  <Link style={linkStyle1} to="">HISTÓRICO</Link>
+              </button>
+              </NavUnlisted>
+            </div>
         </div>
     </header>
     <footer>
@@ -123,7 +142,7 @@ function Scan(){
 
               <NavUnlisted>
             <button className="btn-enter">
-              <Link style={linkStyle} to="/quiz">next</Link>
+              <Link style={linkStyle} to="/quiz">NEXT</Link>
             </button>
           </NavUnlisted>
           
@@ -342,7 +361,7 @@ function Congrats(){
 
         <NavUnlisted>
             <button className="btn-enter win">
-              <Link style={linkStyle} to="/">Ver placar</Link>
+              <Link style={linkStyle} to="/">VER PLACAR</Link>
             </button>
         </NavUnlisted>
   </header>
