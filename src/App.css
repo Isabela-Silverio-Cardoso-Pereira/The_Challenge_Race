@@ -164,8 +164,8 @@ footer {
 }
 .bg {
   position: absolute;
-  width: 249px;   
-  height: 200px; 
+  width: 330px; 
+  height: 300px;
   top: 142px;
   background: #E3E3E3;
   border-radius: 15px;
@@ -178,150 +178,89 @@ footer {
   }
 .questionTheme {
   position: absolute;
-
+  width: 303px;
 }
 .imgMath {
   right: 41px;
-  width: 20rem;
-  height: 14rem; 
+  width: 25rem; 
+  height: 20rem;
 }
 .imgHis {
   right: 70px;
-  width: 24rem; 
-  height: 14rem; 
+  width: 29rem; 
+  height: 20rem;
 }
 .imgFil {
   right: 67px;
-  width: 24rem;
-  height: 14rem;
+  width: 29rem; 
+  height: 20rem;
 }
 .imgNat {
   right: 67px;
-  width: 24rem; 
-  height: 14rem; 
+  width: 29rem; 
+  height: 20rem;
 
 }
 .imgGeral {
-  width: 12rem; 
+  width: 19rem;  
 }
 .questionText {
   /* margin-top: 22rem; desktop
   margin-left: 0rem; */
-  margin-top: 16rem; /*notebook*/
-  font-size: 16px;  /*notebook*/
+  margin-top: 22rem;
+  margin-left: -27px;
   position: absolute;
   margin-left: -11rem;
   padding: 2px;
   width: 349px;
   position: absolute;
 }
-.A, .B, .C, .D {
-  width: 153px;
-  height: 32px;
+.alternativeChild {
+  font-size: 12px;
+
   border: 0.74359px solid #bf1e2e;
   border-radius: 4px;
-  margin-top: 10rem;
-  margin-left: -13rem;
   position: absolute;
-  top: 142px;
-    
 }
-.A{
-  margin-top: 11rem;
-  margin-left: -11rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+.alternativeChild {
+  position: relative;
+  height: 100px;
 }
-.B{
-  margin-top: 11rem;
-  margin-left: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.C{
-  margin-top: 15rem;
-  margin-left: -11rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.D{
-  margin-top: 15rem;
-  margin-left: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.alternativeChild:focus{
+  background-color:#BF1E2E;
 }
 .alternatives {
-  width: 100%;
-  height: 100%;
+  text-align: center;
+  flex-wrap: wrap;
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  margin-top: 27rem;
 }
 #answers {
   text-decoration: none;
   color: #000;
   font-size: 1rem;
+  height: 68px;
+  width: 10rem;
+  padding: 20px;
+  margin: 10px;
   font-weight: bold;
 
-}
-.A:focus, .B:focus, .C:focus, .D:focus{
-  background-color:#BF1E2E;
-}
-@media only screen and (min-width: 340px) {
-  .bg {
-    width: 330px; 
-    height: 300px;
-  }
-  .imgMath {
-    width: 25rem; 
-    height: 20rem;
-  }
-  .imgHis {
-    width: 29rem; 
-    height: 20rem;
-  }
-  .imgFil {
-    width: 29rem; 
-    height: 20rem;
-  }
-  .imgNat {
-    width: 29rem; 
-    height: 20rem;
-  
-  }
-  .imgGeral {
-    width: 19rem;  
-  }
-  .questionText {
-    margin-top: 22rem;
-    margin-left: -27px;
-}
-  .A, .B, .C, .D {
-    width: 176px;
-    font-size: 12px;
-    height: 75px;
-  }
-  .A {
-    margin-top: 20rem;
-    margin-left: -2.1rem;
-  }
-  .B {
-    margin-top: 20rem;
-    margin-left: 9.6rem;
-  }
-  .C {
-    margin-top: 26rem;
-    margin-left: -2.1rem;
-  }
-  .D {
-    margin-top: 26rem;
-    margin-left: 9.6rem;
-  }
-  .questionTheme {
-    width: 303px;
-}
 }
 html {
   scroll-behavior: smooth;
 }
+
+@media (min-width: 640px) {
+  .alternativeChild{
+    width: calc(25% - 10px);
+  }
+}
+@media (min-width: 940px) {
+  .alternativeChild{
+    width: calc(20% - 10px);
+  }
+}
+

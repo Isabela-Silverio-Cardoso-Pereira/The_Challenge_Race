@@ -97,18 +97,13 @@ function Scan(){
     <div className="headline">
             <h1>Começar</h1>
             <div className="subtitle">
-                <span>Siga para o próximo ponto</span>
+                <span>Vá para o ponto</span>
             </div>
             
         </div>
     <div className="fInputTxt">
-    <NavUnlisted>
-            <button className="btn-enter">
-              <Link style={linkStyle} to="/quiz">next</Link>
-            </button>
-          </NavUnlisted>
+    
               <div className="central">
-
           <Card>
               <CardContent>
                   <Grid container spacing={2}>
@@ -123,8 +118,13 @@ function Scan(){
                   </Grid>
               </CardContent>
           </Card>
-    
               </div>
+
+              <NavUnlisted>
+            <button className="btn-enter">
+              <Link style={linkStyle} to="/quiz">next</Link>
+            </button>
+          </NavUnlisted>
           
     </div>
     </header>
@@ -167,10 +167,10 @@ function Quiz(){
       </h2>
     </div>
     <div className="alternatives">
-      <a href="#" className="A" id='answers' onClick={() => changeStyle()}>A - 100 e 121</a>
-      <a href="#" className="B" id='answers' onClick={() => changeStyle()}>B - 120 e 111</a>
-      <a href="#" className="C" id='answers' onClick={() => changeStyle()}>C - 110 e 122</a>
-      <a href="#" className="D" id='answers' onClick={() => changeStyle()}>D - 110 e 121</a>
+      <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>A - 100 e 121</a>
+      <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>B - 120 e 111</a>
+      <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>C - 110 e 122</a>
+      <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>D - 110 e 121</a>
     </div>
   </div>;
   const step2Content = 
@@ -187,10 +187,10 @@ function Quiz(){
       </h2>
     </div>
     <div className="alternatives">
-      <a href="#" className="A" id='answers' onClick={() => changeStyle()}>A - Mato Grosso</a>
-      <a href="#" className="B" id='answers' onClick={() => changeStyle()}>B - São Paulo</a>
-      <a href="#" className="C" id='answers' onClick={() => changeStyle()}>C - Minas Gerais</a>
-      <a href="#" className="D" id='answers' onClick={() => changeStyle()}>D - Amazonas</a>
+      <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>A - Mato Grosso</a>
+      <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>B - São Paulo</a>
+      <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>C - Minas Gerais</a>
+      <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>D - Amazonas</a>
     </div>
   </div>;
   const step3Content = 
@@ -207,10 +207,10 @@ function Quiz(){
       </h2>
     </div>
     <div className="alternatives">
-      <a href="#" className="A" id='answers' onClick={() => changeStyle()}>A - XX</a>
-      <a href="#" className="B" id='answers' onClick={() => changeStyle()}>B - XY</a>
-      <a href="#" className="C" id='answers' onClick={() => changeStyle()}>C - Xx</a>
-      <a href="#" className="D" id='answers' onClick={() => changeStyle()}>D - Yy</a>
+      <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>A - XX</a>
+      <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>B - XY</a>
+      <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>C - Xx</a>
+      <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>D - Yy</a>
     </div>
   </div>;
   const step4Content = 
@@ -227,10 +227,10 @@ function Quiz(){
       </h2>
     </div>
     <div className="alternatives">
-      <a href="#" className="A" id='answers' onClick={() => changeStyle()}>A - Cuiabá</a>
-      <a href="#" className="B" id='answers' onClick={() => changeStyle()}>B - Ceará</a>
-      <a href="#" className="C" id='answers' onClick={() => changeStyle()}>C - Rio de Janeiro</a>
-      <a href="#" className="D" id='answers' onClick={() => changeStyle()}>D - Balneário Camboriú</a>
+      <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>A - Cuiabá</a>
+      <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>B - Ceará</a>
+      <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>C - Rio de Janeiro</a>
+      <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>D - Balneário Camboriú</a>
     </div>
   </div>;
   const step5Content = 
@@ -247,10 +247,10 @@ function Quiz(){
       </h2>
     </div>
       <div className="alternatives">
-      <a href="#" className="A" id='answers' onClick={() => changeStyle()}>A - A mitologia</a>
-      <a href="#" className="B" id='answers' onClick={() => changeStyle()}>B - A filosofia</a>
-      <a href="#" className="C" id='answers' onClick={() => changeStyle()}>C - A matematica</a>
-      <a href="#" className="D" id='answers' onClick={() => changeStyle()}>D - A biologia</a>
+      <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>A - A mitologia</a>
+      <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>B - A filosofia</a>
+      <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>C - A matematica</a>
+      <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>D - A biologia</a>
       </div>
   </div>;
 
@@ -258,8 +258,7 @@ function Quiz(){
 
 function validator(){
 
-
-  
+return true
 
 }
 
@@ -284,7 +283,7 @@ function onFormSubmit() {
               label: '',
               name: 'step 1',
               content: step1Content,
-              // validator: validator
+              validator: validator
             },
             {
               label: '',
