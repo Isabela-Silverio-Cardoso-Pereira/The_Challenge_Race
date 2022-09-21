@@ -9,9 +9,8 @@ import exatas from "./assets/math2.svg"
 import filos from "./assets/filo.svg"
 import natura from "./assets/natura.svg"
 import geral from "./assets/apollo.svg"
-import React, {useState, useRef} from 'react';
-import {Container, Card, CardContent, makeStyles, Grid, TextField, Button} from '@material-ui/core';
-import QRCode from 'qrcode';
+import {useState} from 'react';
+import { Card, CardContent, Grid} from '@material-ui/core';
 import QrReader from 'react-qr-reader';
 
 
@@ -312,11 +311,11 @@ function onFormSubmit() {
     </>
 }
 export default App
-function getElementByClassName(arg0: string) {
-  throw new Error('Function not implemented.');
-}
 
-function useStyles() {
-  throw new Error('Function not implemented.');
-}
+// na tela inicial add button criar corrida e histórico 
+// add tela parabéns
+// add tela placar
+
+
+
 
