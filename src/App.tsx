@@ -9,9 +9,8 @@ import exatas from "./assets/math2.svg"
 import filos from "./assets/filo.svg"
 import natura from "./assets/natura.svg"
 import geral from "./assets/apollo.svg"
-import React, {useState, useRef} from 'react';
-import {Container, Card, CardContent, makeStyles, Grid, TextField, Button} from '@material-ui/core';
-import QRCode from 'qrcode';
+import  {useState} from 'react';
+import { Card, CardContent, Grid} from '@material-ui/core';
 import QrReader from 'react-qr-reader';
 
 
@@ -32,6 +31,7 @@ function App() {
           <Route path="/" element={<Home/>}></Route>
           <Route path="/scan" element={<Scan/>}></Route>
           <Route path="/quiz" element={<Quiz/>}></Route>
+          <Route path="/congrats" element={<Congrats/>}></Route>
         </Routes>
     
     </div>
@@ -150,9 +150,12 @@ function Quiz(){
     
 }
   const onSubmit = () => { //colocar cooldown
-    alert('submit data');
+    // var element = document.getElementsByClassName('elem')as HTMLCollectionOf<HTMLElement>;
+    // console.log(element);
+    // element[0].style.display = 'block';
+  
+    
   }
-  // colocar esqueleto e perguntas
   const step1Content = 
   <div className="back">
     <h1 className="questionTheme">
@@ -252,6 +255,12 @@ function Quiz(){
       <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>C - A matematica</a>
       <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>D - A biologia</a>
       </div>
+
+      <NavUnlisted>
+            <button className="btn-enter">
+              <Link style={linkStyle} to="/congrats">Entrar</Link>
+            </button>
+      </NavUnlisted>
   </div>;
 
 //colocar acertos e erros
@@ -311,12 +320,27 @@ function onFormSubmit() {
       </div>
     </>
 }
-export default App
-function getElementByClassName(arg0: string) {
-  throw new Error('Function not implemented.');
-}
+function Congrats(){
 
-function useStyles() {
-  throw new Error('Function not implemented.');
+  return <>
+  <header className="wave">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#BF1E2E" fill-opacity="1" d="M0,128L80,117.3C160,107,320,85,480,101.3C640,117,800,171,960,192C1120,213,1280,203,1360,197.3L1440,192L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path>
+        </svg>
+
+        <NavUnlisted>
+            <button className="btn-enter">
+              <Link style={linkStyle} to="/">Entrar</Link>
+            </button>
+        </NavUnlisted>
+  </header>
+
+  <footer>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#BF1E2E" fill-opacity="1" d="M0,128L80,117.3C160,107,320,85,480,101.3C640,117,800,171,960,192C1120,213,1280,203,1360,197.3L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+            </svg>
+    </footer>
+  </>
 }
+export default App;
 
