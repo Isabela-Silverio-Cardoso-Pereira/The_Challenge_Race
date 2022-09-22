@@ -158,7 +158,6 @@ footer {
   text-decoration: none;
   padding: 5px 24px;
   margin-top: 3rem;
-  text-align: center;
 }
 .historic{
   border: 2px solid #bf1e2e;
@@ -172,8 +171,8 @@ footer {
   margin-top: 24rem;
 }
 .toWin {
-  margin-top: 41rem;
-  margin-left: -5rem;
+  margin-top: 38rem;
+  margin-left: -3rem;
   position: absolute;
 }
 .back {
@@ -206,6 +205,9 @@ footer {
   position: absolute;
   width: 303px;
 }
+.question {
+  text-align: center;
+}
 .imgMath {
   right: 41px;
   width: 25rem; 
@@ -236,15 +238,13 @@ footer {
   height: 21rem;
 }
 .questionText {
-  /* margin-top: 22rem; desktop
-  margin-left: 0rem; */
+  display: flex;
+  width: 21rem;
   margin-top: 22rem;
   margin-left: -27px;
   position: absolute;
   margin-left: -11rem;
   padding: 2px;
-  width: 349px;
-  position: absolute;
 }
 .alternativeChild {
   font-size: 12px;
@@ -279,6 +279,12 @@ footer {
   margin: 10px;
   font-weight: bold;
 
+}
+.simpleDiv{
+    width: 6rem;
+    height: 2rem;
+    background: #E3E3E3;
+    border-radius: 4px;
 }
 html {
   scroll-behavior: smooth;
