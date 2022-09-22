@@ -1,11 +1,11 @@
 import './App.css'
 
-import Home from './pages/home'
+import Home from './pages/Home'
 import Quiz from './pages/Quiz'
 import Scan from './pages/Scan'
 import Congrats from './pages/Congrats'
 
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route} from "react-router-dom";
 
 function App() {
   

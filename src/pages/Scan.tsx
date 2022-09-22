@@ -59,7 +59,7 @@ return <>
 
         <div className="btnParent">
             <NavUnlisted>
-                <button className="btn-enter">
+                <button className="btn-enter-startQuiz">
                     <Link style={linkStyle} to="/quiz">NEXT</Link>
                 </button>
             </NavUnlisted>

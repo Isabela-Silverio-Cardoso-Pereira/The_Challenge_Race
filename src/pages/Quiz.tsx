@@ -47,96 +47,93 @@ function Quiz() {
         </div>
         <div className="question">
             <h2 className="questionText">
-            A<div className="simpleDiv"></div> aconteceu em 1822, e<br /><br /><div className="simpleDiv"></div> foi coroado imperador
+            {/* A<div className="simpleDiv"></div> aconteceu em 1822, e<br /><br /><div className="simpleDiv"></div> foi coroado imperador */}
             </h2>
         </div>
         <div className="alternatives">
-            <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>Independência do Brasil'</a>
-            <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>D. Pedro I</a>
-            <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>José Bonifácio</a>
-            <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>Barão de Mauá</a>
-            <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>Dia do fico</a>
-            <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>Revolta da armada</a>
+            <a href="#" className="alternativeChild" id='A' onClick={() => changeStyle()}></a>
+            <a href="#" className="alternativeChild" id='B' onClick={() => changeStyle()}></a>
+            <a href="#" className="alternativeChild" id='C' onClick={() => changeStyle()}></a>
+            <a href="#" className="alternativeChild" id='D' onClick={() => changeStyle()}></a>
         </div>
     </div>;
     const step2Content = 
     <div className="back">
         <h1 className="questionTheme">
-            Ciências Humanas
+
         </h1>
         <div className="bg">
             <img src={humanas} className="imgHis"></img>
         </div>
         <div className="question">
             <h2 className="questionText">
-            Qual estado Brasileiro é maior em extenção territorial?
+
             </h2>
         </div>
         <div className="alternatives">
-            <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>A - Mato Grosso</a>
-            <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>B - São Paulo</a>
-            <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>C - Minas Gerais</a>
-            <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>D - Amazonas</a>
+            <a href="#" className="alternativeChild" id='A' onClick={() => changeStyle()}></a>
+            <a href="#" className="alternativeChild" id='B' onClick={() => changeStyle()}></a>
+            <a href="#" className="alternativeChild" id='C' onClick={() => changeStyle()}></a>
+            <a href="#" className="alternativeChild" id='D' onClick={() => changeStyle()}></a>
         </div>
     </div>;
     const step3Content = 
     <div className="back">
         <h1 className="questionTheme">
-            Ciências Naturais
+
         </h1>
         <div className="bg">
             <img src={natura} className="imgNat"></img>
         </div>
         <div className="question">
             <h2 className="questionText">
-            Quais são os cromossomos que determinam o sexo masculino?
+
             </h2>
         </div>
         <div className="alternatives">
-            <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>A - XX</a>
-            <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>B - XY</a>
-            <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>C - Xx</a>
-            <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>D - Yy</a>
+            <a href="#" className="alternativeChild" id='A' onClick={() => changeStyle()}></a>
+            <a href="#" className="alternativeChild" id='B' onClick={() => changeStyle()}></a>
+            <a href="#" className="alternativeChild" id='C' onClick={() => changeStyle()}></a>
+            <a href="#" className="alternativeChild" id='D' onClick={() => changeStyle()}></a>
         </div>
     </div>;
     const step4Content = 
     <div className="back">
         <h1 className="questionTheme">
-            Conhecimento Geral
+
         </h1>
         <div className="bg">
         <img src={geral} className="imgGeral"></img>
         </div>
         <div className="question">
             <h2 className="questionText">
-            Qual dessas cidades recebem mais turistas estrangeiros?
+
             </h2>
         </div>
         <div className="alternatives">
-            <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>A - Cuiabá</a>
-            <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>B - Ceará</a>
-            <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>C - Rio de Janeiro</a>
-            <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>D - Balneário Camboriú</a>
+            <a href="#" className="alternativeChild" id='A' onClick={() => changeStyle()}></a>
+            <a href="#" className="alternativeChild" id='B' onClick={() => changeStyle()}></a>
+            <a href="#" className="alternativeChild" id='C' onClick={() => changeStyle()}></a>
+            <a href="#" className="alternativeChild" id='D' onClick={() => changeStyle()}></a>
         </div>
     </div>;
     const step5Content = 
     <div className="back">
         <h1 className="questionTheme">
-            Filosofia
+
         </h1>
         <div className="bg">
             <img src={filos} className="imgFil"></img>
         </div>
         <div className="question">
             <h2 className="questionText">
-            Qual foi o recurso utilizado inicialmente pelo homem para explicar a origem das coisas?
             </h2>
         </div>
         <div className="alternatives">
-            <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>A - A mitologia</a>
-            <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>B - A filosofia</a>
-            <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>C - A matematica</a>
-            <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>D - A biologia</a>
+            <a href="#" className="alternativeChild" id='A' onClick={() => changeStyle()}></a>
+            <a href="#" className="alternativeChild" id='B' onClick={() => changeStyle()}></a>
+            <a href="#" className="alternativeChild" id='C' onClick={() => changeStyle()}></a>
+            <a href="#" className="alternativeChild" id='D' onClick={() => changeStyle()}></a>
         </div>
         <div className="btnParent">
             <NavUnlisted>
