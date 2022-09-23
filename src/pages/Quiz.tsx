@@ -37,104 +37,12 @@ function Quiz() {
         // console.log(element);
         // element[0].style.display = 'block';
         }
-    const step1Content = 
-    <div className="back">
-        <h1 className="questionTheme">
-            Ciências Exata
-        </h1>
-        <div className="bg">
-            <img src={exatas} className="imgMath"></img>
-        </div>
-        <div className="question">
-            <h2 className="questionText">
-            {/* A<div className="simpleDiv"></div> aconteceu em 1822, e<br /><br /><div className="simpleDiv"></div> foi coroado imperador */}
-            </h2>
-        </div>
-        <div className="alternatives">
-            <a href="#" className="alternativeChild" id='A' onClick={() => changeStyle()}></a>
-            <a href="#" className="alternativeChild" id='B' onClick={() => changeStyle()}></a>
-            <a href="#" className="alternativeChild" id='C' onClick={() => changeStyle()}></a>
-            <a href="#" className="alternativeChild" id='D' onClick={() => changeStyle()}></a>
-        </div>
-    </div>;
-    const step2Content = 
-    <div className="back">
-        <h1 className="questionTheme">
-
-        </h1>
-        <div className="bg">
-            <img src={humanas} className="imgHis"></img>
-        </div>
-        <div className="question">
-            <h2 className="questionText">
-
-            </h2>
-        </div>
-        <div className="alternatives">
-            <a href="#" className="alternativeChild" id='A' onClick={() => changeStyle()}></a>
-            <a href="#" className="alternativeChild" id='B' onClick={() => changeStyle()}></a>
-            <a href="#" className="alternativeChild" id='C' onClick={() => changeStyle()}></a>
-            <a href="#" className="alternativeChild" id='D' onClick={() => changeStyle()}></a>
-        </div>
-    </div>;
-    const step3Content = 
-    <div className="back">
-        <h1 className="questionTheme">
-
-        </h1>
-        <div className="bg">
-            <img src={natura} className="imgNat"></img>
-        </div>
-        <div className="question">
-            <h2 className="questionText">
-
-            </h2>
-        </div>
-        <div className="alternatives">
-            <a href="#" className="alternativeChild" id='A' onClick={() => changeStyle()}></a>
-            <a href="#" className="alternativeChild" id='B' onClick={() => changeStyle()}></a>
-            <a href="#" className="alternativeChild" id='C' onClick={() => changeStyle()}></a>
-            <a href="#" className="alternativeChild" id='D' onClick={() => changeStyle()}></a>
-        </div>
-    </div>;
-    const step4Content = 
-    <div className="back">
-        <h1 className="questionTheme">
-
-        </h1>
-        <div className="bg">
-        <img src={geral} className="imgGeral"></img>
-        </div>
-        <div className="question">
-            <h2 className="questionText">
-
-            </h2>
-        </div>
-        <div className="alternatives">
-            <a href="#" className="alternativeChild" id='A' onClick={() => changeStyle()}></a>
-            <a href="#" className="alternativeChild" id='B' onClick={() => changeStyle()}></a>
-            <a href="#" className="alternativeChild" id='C' onClick={() => changeStyle()}></a>
-            <a href="#" className="alternativeChild" id='D' onClick={() => changeStyle()}></a>
-        </div>
-    </div>;
+    const step1Content = <NavUnlisted></NavUnlisted>
+    const step2Content = <NavUnlisted></NavUnlisted>
+    const step3Content = <NavUnlisted></NavUnlisted>
+    const step4Content = <NavUnlisted></NavUnlisted>
     const step5Content = 
-    <div className="back">
-        <h1 className="questionTheme">
 
-        </h1>
-        <div className="bg">
-            <img src={filos} className="imgFil"></img>
-        </div>
-        <div className="question">
-            <h2 className="questionText">
-            </h2>
-        </div>
-        <div className="alternatives">
-            <a href="#" className="alternativeChild" id='A' onClick={() => changeStyle()}></a>
-            <a href="#" className="alternativeChild" id='B' onClick={() => changeStyle()}></a>
-            <a href="#" className="alternativeChild" id='C' onClick={() => changeStyle()}></a>
-            <a href="#" className="alternativeChild" id='D' onClick={() => changeStyle()}></a>
-        </div>
         <div className="btnParent">
             <NavUnlisted>
                     <button className="btn-enter toWin">
@@ -142,7 +50,6 @@ function Quiz() {
                     </button>
             </NavUnlisted>
         </div>
-    </div>;
     
     //colocar acertos e erros
     

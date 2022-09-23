@@ -215,6 +215,7 @@ footer {
 .questionTheme {
   position: absolute;
   width: 303px;
+  margin-top: -4rem;
 }
 .question {
   text-align: center;

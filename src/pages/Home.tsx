@@ -48,7 +48,7 @@ const linkStyle1 = {
 
             <NavUnlisted>
                 <button className="btn-enter newRace">
-                    <Link style={linkStyle} to="">CRIAR NOVA CORRIDA</Link>
+                    <Link style={linkStyle} to="/register">CRIAR NOVA CORRIDA</Link>
                 </button>
                 </NavUnlisted>
 
