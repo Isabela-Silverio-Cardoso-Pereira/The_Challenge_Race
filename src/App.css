@@ -325,6 +325,7 @@ html {
 }
 .waveRegister {
   margin-top: -5rem;
+  position: fixed;
 }
 @media ( min-width: 320px) {
   footer {
@@ -366,8 +367,10 @@ html {
   .footerWave {
     margin-top: 11px;
     width: 100%;
+    position: fixed;
   }
   .waveHome {
+    position: fixed;
     margin-top: -5rem;
   }
   
@@ -384,6 +387,7 @@ html {
   .waveScan{
     margin-top: 10px;
     width: 100%;
+    position: fixed;
   }
   
   .quizNext {
@@ -488,9 +492,11 @@ html {
   .footerWave {
     margin-top: 11px;
     width: 100%;
+    position: fixed;
   }
   .waveHome {
     margin-top: -5rem;
+    position: fixed;
   }
   
   
@@ -506,6 +512,7 @@ html {
   .waveScan{
     margin-top: 9px;
     width: 100%;
+    position: fixed;
   }
   
   .quizNext {
@@ -614,9 +621,11 @@ html {
 .footerWave {
   margin-top: 11px;
   width: 100%;
+  position: fixed;
 }
 .waveHome {
   margin-top: -5rem;
+  position: fixed;
 }
 
 
@@ -632,6 +641,7 @@ html {
 .waveScan{
   margin-top: 0px;
   width: 100%;
+  position: fixed;
 }
 
 .quizNext {
@@ -734,10 +744,12 @@ html {
   }
   .waveHome {
     margin-top: -5rem;
+    position: fixed;
   }
 
   .waveScan {
     margin-top: -5rem;
+    position: fixed;
   }
 
   .fInputTxt {
