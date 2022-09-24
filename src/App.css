@@ -442,7 +442,7 @@ html {
   .imgWin {
     width: 24rem;
     right: 2rem;
-    height: 17rem;
+    height: 18rem;
   }
   .scoreboard{
     margin-top: -5rem;
@@ -634,7 +634,7 @@ html {
 
 .quizNext {
   position: absolute;
-  margin-left: 131px;
+  margin-left: 117px;
   margin-top: 26rem;
 }
 .questionTheme {
