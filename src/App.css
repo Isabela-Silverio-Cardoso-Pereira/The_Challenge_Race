@@ -221,7 +221,12 @@ footer {
   font-weight: bold;
 }
 .alternativeChild:focus{
-  background-color:#BF1E2E;
+  background-color:#D61F18;
+  color: #fff;
+}
+.alternativeChild:active {
+  box-shadow: 0px 4px 8px rgba(darken(dodgerblue, 30%));
+  transform: scale(.96);
 }
 .alternatives {
   text-align: center;
@@ -231,7 +236,6 @@ footer {
   justify-content: center;
   margin-top: 27rem;
 }
-
 .simpleDiv{
     width: 6rem;
     height: 2rem;
@@ -275,6 +279,9 @@ html {
 .footerWave {
   margin-top: 11px;
   width: 100%;
+}
+.waveRegister {
+  margin-top: -5rem;
 }
 .fInputTxt {
   display: flex;
@@ -345,7 +352,7 @@ html {
 .alternativeChild {
   font-size: 14px;
   height: 65px;
-  width: 8rem;
+  width: 8.3rem;
   margin-top: 3px;
   margin-right: 20px;
   margin-left: 20px;
@@ -435,7 +442,6 @@ html {
 }
 .waveScan {
   margin-top: -5rem;
-  width: 100%;
 }
 .win {
   margin-top: 24rem;
