@@ -323,10 +323,6 @@ html {
 .win {
   margin-top: 24rem;
 }
-.waveRegister {
-  margin-top: -5rem;
-  position: fixed;
-}
 @media ( min-width: 320px) {
   footer {
     bottom: 0;
@@ -365,11 +361,13 @@ html {
     width: 10.5rem;
   }
   .footerWave {
-    margin-top: -5rem;
+    margin-top: 11px;
     width: 100%;
   }
   .waveHome {
-    position: fixed;
+    margin-top: -5rem;
+  }
+  .waveRegister {
     margin-top: -5rem;
   }
   
@@ -386,7 +384,6 @@ html {
   .waveScan{
     margin-top: 10px;
     width: 100%;
-    position: fixed;
   }
   
   .quizNext {
@@ -491,14 +488,10 @@ html {
   .footerWave {
     margin-top: 11px;
     width: 100%;
-    position: fixed;
   }
   .waveHome {
     margin-top: -5rem;
-    position: fixed;
   }
-  
-  
   
   .fInputTxt {
     display: flex;
@@ -511,7 +504,6 @@ html {
   .waveScan{
     margin-top: 9px;
     width: 100%;
-    position: fixed;
   }
   
   .quizNext {
@@ -620,11 +612,9 @@ html {
 .footerWave {
   margin-top: 11px;
   width: 100%;
-  position: fixed;
 }
 .waveHome {
   margin-top: -5rem;
-  position: fixed;
 }
 
 
@@ -640,7 +630,6 @@ html {
 .waveScan{
   margin-top: 0px;
   width: 100%;
-  position: fixed;
 }
 
 .quizNext {
@@ -743,12 +732,10 @@ html {
   }
   .waveHome {
     margin-top: -5rem;
-    position: fixed;
   }
 
   .waveScan {
     margin-top: -5rem;
-    position: fixed;
   }
 
   .fInputTxt {
