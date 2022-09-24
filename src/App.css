@@ -828,7 +828,12 @@ html {
     margin-top: -8rem;
   }
 }
-@media (max-width:1024px) {
-
+@media (min-height:1520px) {
+  footer {
+    bottom: 0;
+    width: 100%;
+    margin-top: -55rem;
+    height: 5.7rem;
+}
 }
 
