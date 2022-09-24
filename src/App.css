@@ -650,7 +650,8 @@ html {
 }
 .imgFil {
   width: 26rem;
-  height: 15rem;
+  top: -13px;
+  height: 16rem;
 }
 .imgMath {
   width: 22rem;
@@ -658,14 +659,19 @@ html {
 }
 .imgHis {
   width: 26rem;
-  height: 16rem;
+  height: 17rem;
+  top: -27px;
 }
 .imgNat {
   width: 26rem;
-  height: 16rem;
+  height: 17rem;
+  top: -27px;
 }
 .imgGeral {
-    width: 14rem;
+  width: 19rem;
+  height: 17rem;
+  top: -15px;
+  left: -11px;
 }
 .questionText {
   display: flex;
@@ -779,7 +785,10 @@ html {
   
   }
   .imgGeral {
-    width: 19rem;  
+    width: 22rem;
+    height: 20rem;
+    top: -15px;
+    left: -10px;
   }
   .imgWin {
     width: 28rem;
@@ -815,6 +824,13 @@ html {
     margin-top: -22px;
   }
 
+
+  footer {
+    bottom: 0;
+    margin-top: -0.5rem;
+    width: 100%;
+    height: 5.7rem;
+}
 
   .win {
     margin-top: 24rem;

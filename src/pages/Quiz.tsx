@@ -4,12 +4,12 @@ import humanas from "../assets/history.svg"
 import exatas from "../assets/math2.svg"
 import filos from "../assets/filo.svg"
 import natura from "../assets/natura.svg"
-import geral from "../assets/apollo.svg"
+import geral from "../assets/astronaut.svg"
 
 import StepProgressBar from 'react-step-progress';
 import 'react-step-progress/dist/index.css';
 import styled from "styled-components";
-import { Routes, Route, Link } from "react-router-dom";
+import {Link } from "react-router-dom";
 
 
 function Quiz() {
