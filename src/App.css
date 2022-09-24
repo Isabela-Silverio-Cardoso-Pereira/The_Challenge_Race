@@ -329,7 +329,7 @@ html {
   height: 16rem;
 }
 .imgGeral {
-  width: 14rem;
+    width: 14rem;
 }
 .questionText {
   display: flex;
@@ -350,6 +350,9 @@ html {
   margin-top: 3px;
   margin-right: 20px;
   margin-left: 20px;
+}
+.footerWave {
+  margin-top: -5rem;
 }
 
 @media (min-width: 390px) {
