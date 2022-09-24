@@ -9,7 +9,7 @@
 }
 html, body, #root {
   height: 100%;
-  overflow: hidden;
+ 
   margin: 0;
 }
 body {
@@ -828,12 +828,5 @@ html {
     margin-top: -8rem;
   }
 }
-@media (min-height:1520px) {
-  footer {
-    bottom: 0;
-    width: 100%;
-    margin-top: -55rem;
-    height: 5.7rem;
-}
-}
+
 
