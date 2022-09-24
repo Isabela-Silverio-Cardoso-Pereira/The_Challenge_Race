@@ -125,7 +125,6 @@
   width: 150px;
   margin-top: 1rem;
   text-align: center;
-  border-radius: 18px;
 }
 
 ._3CDiP {
@@ -232,7 +231,6 @@
   width: 150px;
   margin-top: -20rem;
   text-align: center;
-  border-radius: 18px;
 }
 /* .MuiGrid-spacing-xs-2 {
   margin: -8px;
@@ -242,6 +240,28 @@
   height: 16rem;
 } */
 }
+@media only screen and (min-width: 320px) {
+  ._3uApM {
+    margin-top: 27rem;
+      }
+  ._2pGos {
+    margin-left: -49px;
+    width: 150px;
+    margin-top: 1rem;
+    text-align: center;
+    }
+
+@media only screen and (min-width: 353px) {
+      ._3uApM {
+        margin-top: 32rem;
+          }
+      ._2pGos {
+        margin-left: -43px;
+        width: 150px;
+        margin-top: 1rem;
+        text-align: center;
+        }
+      }
 @media only screen and (min-width: 390px) {
 ._3uApM {
   margin-top: 39rem;
@@ -253,7 +273,7 @@
   width: 150px;
   margin-top: 1rem;
   text-align: center;
-  border-radius: 18px;
   }
     
   }
+}

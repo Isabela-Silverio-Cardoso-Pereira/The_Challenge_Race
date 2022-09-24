@@ -129,8 +129,6 @@ footer {
 .btnParent {
   text-align: center;
 }
-
-
 .win {
   margin-top: 24rem;
 }
@@ -226,7 +224,7 @@ footer {
 }
 .alternativeChild:active {
   box-shadow: 0px 4px 8px rgba(darken(dodgerblue, 30%));
-  transform: scale(.96);
+  transform: scale(.99);
 }
 .alternatives {
   text-align: center;
@@ -245,127 +243,6 @@ footer {
 html {
   scroll-behavior: smooth;
 }
-@media (min-width: 360px) {
-.btn-enter{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
-  border: transparent;
-  height: 40px;
-  background: #BF1E2E;
-  border-radius: 5px;
-  text-decoration: none;
-  padding: 5px 24px;
-  margin-top: 1rem;
-}
-.headline {
-  display: flex;
-  font-family: 'Montserrat', sans-serif;
-  justify-content: center;
-  align-items: center;
-  margin-top: -5rem;
-  flex-direction: column;
-  font-size: 1rem;    
-  height: 19rem;
-}
-.newRace {
-  width: 14rem;
-  margin-top: 8rem;
-}
-.historic {
-  border: 2px solid #bf1e2e;
-  background: #fff;
-  width: 10.5rem;
-}
-.footerWave {
-  margin-top: 11px;
-  width: 100%;
-}
-.waveRegister {
-  margin-top: -5rem;
-}
-.fInputTxt {
-  display: flex;
-  height: 100%;
-  justify-content: center;
-  margin-top: -7rem;
-  flex-direction: column;
-}
-.win {
-  margin-top: 11rem;
-}
-.imgWin {
-  width: 26rem;
-  right: 2rem;
-  height: 17rem;
-}
-.waveScan{
-  margin-top: 0px;
-  width: 100%;
-}
-.quizNext {
-  position: absolute;
-  margin-left: 131px;
-  margin-top: 26rem;
-}
-.questionTheme {
-  position: absolute;
-  width: 303px;
-  margin-top: -27px;
-  font-size: 23px;
-}
-.bg {
-  width: 280px;
-  height: 225px;
-  top: 142px;
-}
-.imgFil {
-  width: 26rem;
-  height: 15rem;
-}
-.imgMath {
-  width: 22rem;
-  height: 15.7rem;
-}
-.imgHis {
-  width: 26rem;
-  height: 16rem;
-}
-.imgNat {
-  width: 26rem;
-  height: 16rem;
-}
-.imgGeral {
-    width: 14rem;
-}
-.questionText {
-  display: flex;
-  font-size: 13px;
-  width: 21rem;
-  margin-top: 15.5rem;
-  position: absolute;
-  margin-left: -168px;
-  padding: 2px;
-}
-.alternatives {
-  margin-top: 297px;
-}
-.alternativeChild {
-  font-size: 14px;
-  height: 65px;
-  width: 8.3rem;
-  margin-top: 3px;
-  margin-right: 20px;
-  margin-left: 20px;
-}
-.waveHome {
-  margin-top: -5rem;
-}
-.scoreboard{
-  margin-top: -5rem;
-}
-
-
-@media (min-width: 390px) {
 .btn-enter {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
@@ -446,11 +323,512 @@ html {
 .win {
   margin-top: 24rem;
 }
+
+@media ( min-width: 320px) {
+  .btn-enter{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    border: transparent;
+    height: 40px;
+    background: #BF1E2E;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px 24px;
+    margin-top: 1rem;
+  }
+  .headline {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5rem;
+    flex-direction: column;
+    font-size: 1rem;    
+    height: 19rem;
+  }
+  .newRace {
+    width: 14rem;
+    margin-top: 8rem;
+  }
+  .historic {
+    border: 2px solid #bf1e2e;
+    background: #fff;
+    width: 10.5rem;
+  }
+  .footerWave {
+    margin-top: 11px;
+    width: 100%;
+  }
+  .waveHome {
+    margin-top: -5rem;
+  }
+  
+  
+  .waveRegister {
+    margin-top: -5rem;
+  }
+  .fInputTxt {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    margin-top: -4rem;
+    flex-direction: column;
+  }
+  
+  .waveScan{
+    margin-top: 9px;
+    width: 100%;
+  }
+  
+  .quizNext {
+    position: absolute;
+    margin-left: 98px;
+    margin-top: 26rem;
+  }
+  .questionTheme {
+    position: absolute;
+    width: 303px;
+    margin-top: -27px;
+    font-size: 23px;
+  }
+  .bg {
+    width: 280px;
+    height: 225px;
+    top: 127px;
+  }
+  .imgFil {
+    width: 26rem;
+    height: 15rem;
+  }
+  .imgMath {
+    width: 22rem;
+    height: 15.7rem;
+  }
+  .imgHis {
+    width: 26rem;
+    height: 16rem;
+  }
+  .imgNat {
+    width: 26rem;
+    height: 16rem;
+  }
+  .imgGeral {
+      width: 14rem;
+  }
+  .questionText {
+    display: flex;
+    font-size: 13px;
+    width: 20rem;
+    margin-top: 14.5rem;
+    position: absolute;
+    margin-left: -159px;
+    padding: 2px;
+  }
+  .alternatives {
+    margin-top: 297px;
+  }
+  .alternativeChild {
+    font-size: 14px;
+    height: 65px;
+    width: 7.3rem;
+    margin-top: 3px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  
+  .win {
+    margin-top: 11rem;
+  }
+  .imgWin {
+    width: 24rem;
+    right: 2rem;
+    height: 17rem;
+  }
+  .scoreboard{
+    margin-top: -5rem;
+  }
+}
+@media ( min-width: 353px) {
+  .btn-enter{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    border: transparent;
+    height: 40px;
+    background: #BF1E2E;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px 24px;
+    margin-top: 1rem;
+  }
+  .headline {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5rem;
+    flex-direction: column;
+    font-size: 1rem;    
+    height: 19rem;
+  }
+  .newRace {
+    width: 14rem;
+    margin-top: 8rem;
+  }
+  .historic {
+    border: 2px solid #bf1e2e;
+    background: #fff;
+    width: 10.5rem;
+  }
+  .footerWave {
+    margin-top: 11px;
+    width: 100%;
+  }
+  .waveHome {
+    margin-top: -5rem;
+  }
+  
+  
+  .waveRegister {
+    margin-top: -5rem;
+  }
+  .fInputTxt {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    margin-top: -4rem;
+    flex-direction: column;
+  }
+  
+  .waveScan{
+    margin-top: 9px;
+    width: 100%;
+  }
+  
+  .quizNext {
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 34rem;
+  }
+  .questionTheme {
+    position: absolute;
+    width: 303px;
+    margin-top: -27px;
+    font-size: 23px;
+  }
+  .bg {
+    width: 332px;
+    height: 240px;
+    top: 127px;
+  }
+  .imgFil {
+    width: 29rem;
+    height: 19rem;
+    top: -29px;
+  }
+  .imgMath {
+    width: 25rem;
+    top: -13px;
+    height: 18.7rem;
+  }
+  .imgHis {
+    width: 29.5rem;
+    top: -45px;
+    height: 21rem;
+}
+  .imgNat {
+    width: 29rem;
+    top: -40px;
+    height: 20rem;
+  }
+  .imgGeral {
+      width: 15rem;
+  }
+  .questionText {
+    display: flex;
+    font-size: 15px;
+    width: 20rem;
+    margin-top: 15.5rem;
+    position: absolute;
+    margin-left: -159px;
+    padding: 2px;
+  }
+  .alternatives {
+    margin-top: 297px;
+  }
+  .alternativeChild {
+    font-size: 14px;
+    height: 65px;
+    width: 8.5rem;
+    margin-top: 32px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  
+  .win {
+    margin-top: 18rem;
+  }
+  .imgWin {
+    width: 26rem;
+    right: 2rem;
+    height: 20rem;
+  }
+  .scoreboard{
+    margin-top: -5rem;
+  }
+}
+@media ( min-width: 360px) {
+.btn-enter{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  border: transparent;
+  height: 40px;
+  background: #BF1E2E;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 5px 24px;
+  margin-top: 1rem;
+}
+.headline {
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  justify-content: center;
+  align-items: center;
+  margin-top: -5rem;
+  flex-direction: column;
+  font-size: 1rem;    
+  height: 19rem;
+}
+.newRace {
+  width: 14rem;
+  margin-top: 8rem;
+}
+.historic {
+  border: 2px solid #bf1e2e;
+  background: #fff;
+  width: 10.5rem;
+}
+.footerWave {
+  margin-top: 11px;
+  width: 100%;
+}
+.waveHome {
+  margin-top: -5rem;
+}
+
+
+.waveRegister {
+  margin-top: -5rem;
+}
+.fInputTxt {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  margin-top: -7rem;
+  flex-direction: column;
+}
+
+.waveScan{
+  margin-top: 0px;
+  width: 100%;
+}
+
+.quizNext {
+  position: absolute;
+  margin-left: 131px;
+  margin-top: 26rem;
+}
+.questionTheme {
+  position: absolute;
+  width: 303px;
+  margin-top: -27px;
+  font-size: 23px;
+}
+.bg {
+  width: 280px;
+  height: 225px;
+  top: 142px;
+}
+.imgFil {
+  width: 26rem;
+  height: 15rem;
+}
+.imgMath {
+  width: 22rem;
+  height: 15.7rem;
+}
+.imgHis {
+  width: 26rem;
+  height: 16rem;
+}
+.imgNat {
+  width: 26rem;
+  height: 16rem;
+}
+.imgGeral {
+    width: 14rem;
+}
+.questionText {
+  display: flex;
+  font-size: 13px;
+  width: 21rem;
+  margin-top: 15.5rem;
+  position: absolute;
+  margin-left: -168px;
+  padding: 2px;
+}
+.alternatives {
+  margin-top: 297px;
+}
+.alternativeChild {
+  font-size: 14px;
+  height: 65px;
+  width: 8.3rem;
+  margin-top: 3px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.win {
+  margin-top: 11rem;
+}
 .imgWin {
-  width: 28rem;
+  width: 26rem;
   right: 2rem;
-  height: 21rem;
+  height: 17rem;
+}
+.scoreboard{
+  margin-top: -5rem;
 }
 }
 
+@media (min-width: 390px) {
+.btn-enter {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  border: transparent;
+  height: 40px;
+  background: #BF1E2E;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 5px 24px;
+  margin-top: 3rem;
+  }
+  .headline {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
+    flex-direction: column;
+    font-size: 1.2rem;    
+    height: 19rem;
+  }
+  .newRace {
+    width: 18rem;
+  }
+  .historic{
+    border: 2px solid #bf1e2e;
+    background: #fff;
+  }
+  .waveHome {
+    margin-top: -5rem;
+  }
+
+  .waveScan {
+    margin-top: -5rem;
+  }
+
+  .fInputTxt {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    margin: 0 15px;
+    flex-direction: column;
+  }
+
+
+  .bg {
+  width: 330px; 
+  height: 300px;
+  top: 142px;
+  }
+  .imgFil {
+    right: 67px;
+    width: 29rem; 
+    height: 20rem;
+  }
+  .imgMath {
+    right: 41px;
+    width: 25rem; 
+    height: 20rem;
+  }
+  .imgHis {
+    right: 70px;
+    width: 29rem; 
+    height: 20rem;
+  }
+  .imgFil {
+    right: 67px;
+    width: 29rem; 
+    height: 20rem;
+  }
+  .imgNat {
+    right: 67px;
+    width: 29rem; 
+    height: 20rem;
+  
+  }
+  .imgGeral {
+    width: 19rem;  
+  }
+  .imgWin {
+    width: 28rem;
+    right: 2rem;
+    height: 21rem;
+  }
+  .questionText {
+    display: flex; 
+    width: 21rem; 
+    padding: 2px;
+  }
+  .alternatives {
+    margin-top: 27rem;
+  }
+  .alternativeChild {
+    font-size: 1rem;
+    height: 68px;
+    width: 10rem;
+    padding: 20px;
+    margin: 10px;
+  }
+  .questionText {
+    margin-top: 21rem;
+    font-size: 17px;
+    margin-left: -11rem;
+    padding: 2px;
+    width: 349px;
+    position: absolute;
+  }
+  .questionTheme {
+    position: absolute;
+    width: 303px;
+    margin-top: -22px;
+  }
+
+
+  .win {
+    margin-top: 24rem;
+  }
+  .imgWin {
+    width: 28rem;
+    right: 2rem;
+    height: 21rem;
+  }
+  .winner{
+    margin-top: -8rem;
+  }
 }
+@media (max-width:1024px) {
+
+}
+
