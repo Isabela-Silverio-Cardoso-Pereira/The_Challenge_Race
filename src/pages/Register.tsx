@@ -12,10 +12,6 @@ const linkStyle = {
     color: '#fff',
     textDecoration: "none",
 }
-const linkStyle1 = {
-    color: '#000',
-    textDecoration: "none",
-}
 const {
     register,
     handleSubmit,

@@ -234,7 +234,13 @@
   text-align: center;
   border-radius: 18px;
 }
-  
+/* .MuiGrid-spacing-xs-2 {
+  margin: -8px;
+  width: 16rem;
+  margin-top: 4rem;
+  margin-left: 39px;
+  height: 16rem;
+} */
 }
 @media only screen and (min-width: 390px) {
 ._3uApM {
