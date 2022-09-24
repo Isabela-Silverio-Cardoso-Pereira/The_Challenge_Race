@@ -365,9 +365,8 @@ html {
     width: 10.5rem;
   }
   .footerWave {
-    margin-top: -21rem;
+    margin-top: -5rem;
     width: 100%;
-    position: fixed;
   }
   .waveHome {
     position: fixed;
