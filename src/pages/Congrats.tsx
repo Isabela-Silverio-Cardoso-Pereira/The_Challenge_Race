@@ -1,7 +1,6 @@
-import React from 'react'
 import {motion} from 'framer-motion'
-import win from '../assets/win.svg'
-import { Routes, Route, Link } from "react-router-dom";
+import win from '../assets/img/win.svg'
+import {Link } from "react-router-dom";
 import styled from "styled-components";
 
 function Congrats() {

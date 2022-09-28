@@ -1,10 +1,10 @@
 import React from 'react'
 
-import humanas from "../assets/history.svg"
-import exatas from "../assets/math2.svg"
-import filos from "../assets/filo.svg"
-import natura from "../assets/natura.svg"
-import geral from "../assets/astronaut.svg"
+import humanas from "../assets/img/history.svg"
+import exatas from "../assets/img/math2.svg"
+import filos from "../assets/img/filo.svg"
+import natura from "../assets/img/natura.svg"
+import geral from "../assets/img/astronaut.svg"
 
 import StepProgressBar from 'react-step-progress';
 import 'react-step-progress/dist/index.css';
