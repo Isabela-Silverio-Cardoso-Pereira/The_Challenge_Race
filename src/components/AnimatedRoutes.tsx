@@ -14,6 +14,11 @@ import Challenges from '../pages/Challenges'
 function AnimatedRoutes() {
     const location = useLocation()
 
+    // function Private({children}: React.PropsWithChildren) {
+    //     const singed = false
+
+    //     return singed ? <div>{children}</div> : <Register/>
+    // }
     return <>
     <AnimatePresence>
         <Routes location={location} key={location.pathname}>
@@ -23,7 +28,6 @@ function AnimatedRoutes() {
             <Route path="/congrats" element={<Congrats/>}></Route>
             <Route path="/register" element={<Register/>}></Route>
             <Route path="/race" element={<Race/>}></Route>
-
             <Route path="/runners" element={<Runners/>}></Route>
             <Route path="/checkpoints" element={<Checkpoints/>}></Route>
             <Route path="/challenges" element={<Challenges/>}></Route>
