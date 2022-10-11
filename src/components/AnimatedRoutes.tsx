@@ -1,4 +1,3 @@
-import React from 'react'
 import Home from '../pages/Home'
 import Quiz from '../pages/Quiz'
 import Scan from '../pages/Scan'
