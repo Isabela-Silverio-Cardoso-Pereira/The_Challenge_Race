@@ -87,8 +87,7 @@ footer {
 .first {
   text-indent: -80px;
 }
-.second {
-}
+
 .third {
   text-indent: -86px;
 }
@@ -109,8 +108,6 @@ footer {
 }
 .ninth {
   text-indent: -18px;
-}
-.tenth {
 }
 .um {
   text-indent: -175px;
@@ -408,7 +405,6 @@ li {
   stroke-width: 2;
 }
 .inpN input {
-  -webkit-appearance: none;
   width: 100%;
   border: 0;
   font-family: inherit;
@@ -472,7 +468,6 @@ li {
   stroke-width: 2;
 }
 .inp input {
-  -webkit-appearance: none;
   width: 100%;
   border: 0;
   font-family: inherit;
