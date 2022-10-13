@@ -1,6 +1,13 @@
+import humanas from "../assets/img/history.svg"
+import exatas from "../assets/img/math2.svg"
+import filos from "../assets/img/filo.svg"
+import natura from "../assets/img/natura.svg"
+import geral from "../assets/img/astronaut.svg"
+
 var questions = [
         {
-            "questionTheme":"Conhecimento gerais",
+            "id": 1,
+            "img": humanas,
             "questionContent":"Qual dessas cidades recebem mais turistas estrangeiros?", 
 
                 "a" : "Cuiabá",
@@ -10,7 +17,8 @@ var questions = [
             "correctAnswer":"c"
         },
         {
-            "questionTheme":"Conhecimento gerais",
+            "id": 2,
+            "img": exatas,
             "questionContent":"Hoje é Outubro, daqui a 4 meses será?",
 
                 "a" : "janeiro",
@@ -20,7 +28,8 @@ var questions = [
             "correctAnswer":"b"
         },
         {
-            "questionTheme":"Conhecimento gerais",
+            "id": 3,
+            "img": humanas,
             "questionContent":"Qual estado Brasileiro é maior em extenção territorial?",
             
                 "a" : "Mato Grosso",
@@ -30,17 +39,19 @@ var questions = [
             "correctAnswer":"d"
         },
         {
-            "questionTheme":"Ciências exatas",
+            "id": 4,
+            "img": exatas,
             "questionContent":"77 + 33 e  *  são respectivamente:",
             
                 "a" : "100 e 1",
                 "b" : "0 e 1",
                 "c" : "0 e 2",
                 "d" : "0 e 1",
-            "correctAnswer4":"d"
+            "correctAnswer":"d"
         },
         {
-            "questionTheme":"Ciências exatas",
+            "id": 5,
+            "img": exatas,
             "questionContent":"Um casal tem 6 filhos homens, cada filho tem uma irmã. Quantas pessoas há na familia?",
             
                 "a" : "09",
@@ -50,17 +61,19 @@ var questions = [
             "correctAnswer":"a"
         },
         {
-            "questionTheme":"Ciências exatas",
+            "id": 6,
+            "img": exatas,
             "questionContent":"resolva a equação -5²+25=?",
             
                 "a" : "0",
                 "b" : "17",
                 "c" : "35",
                 "d" : "50",
-            "correctAnswers":"d"
+            "correctAnswer":"d"
         },
         {
-            "questionTheme":"Ciências exatas",
+            "id": 7,
+            "img": exatas,
             "questionContent":"João tem  anos, se ele nascesse a 8 anos atrás, ele teria quantos anos?",
             
                 "a" : "24",
@@ -70,7 +83,8 @@ var questions = [
             "correctAnswer":"c"
         },
         {
-            "questionTheme":"Ciências humanas",
+            "id": 8,
+            "img": filos,
             "questionContent":"Qual foi o recurso utilizado inicialmente pelo homem para explicar a origem das coisas?",
             
                 "a" : "A mitologia",
@@ -80,7 +94,8 @@ var questions = [
             "correctAnswer":"a"
         },
         {
-            "questionTheme":"Ciências naturais",
+            "id": 9,
+            "img": natura,
             "questionContent":"Quais são os cromossomos que determinam o sexo masculino?",
             
                 "a" : "XX",
@@ -90,7 +105,8 @@ var questions = [
             "correctAnswer":"b"
         },
         {
-            "questionTheme":"Conhecimento geral",
+            "id": 10,
+            "img": humanas,
             "questionContent":"Quem pintou o quadro Monalisa?",
             
                 "a" : "Donatello",
@@ -100,17 +116,19 @@ var questions = [
             "correctAnswer":"c"
         },
         {
-            "questionTheme":"Conhecimento geral",
+            "id": 11,
+            "img": humanas,
             "questionContent":"Qual o menor e o maior país do mundo?",
 
                 "a" : "Vaticano e Rússia",
                 "b" : "Nauru e China",
                 "c" : "Mônaco e Canadá",
                 "d" : "São Marino e Índia",
-            "respota":"a"
+            "correctAnswer":"a"
         },
         {
-            "questionTheme":"Ciências naturais",
+            "id": 12,
+            "img": humanas,
             "questionContent":"Qual planeta fica na quinta posição do sistema solar?",
             
                 "a" : "marte",
@@ -120,7 +138,8 @@ var questions = [
             "correctAnswer":"b"
         },
         {
-            "questionTheme":"Ciências naturais",
+            "id": 13,
+            "img": natura,
             "questionContent":"Qual tipo sanguineo é considerado como doador universal?",
             
                 "a" : "-A",
@@ -130,7 +149,8 @@ var questions = [
             "correctAnswer":"d"
         },
         {
-            "questionTheme":"Ciências exatas",
+            "id": 14,
+            "img": exatas,
             "questionContent":"Um taco e uma bola custam R$1,10. Sabendo que o taco é R$1,00 mais caro que a bola, quanto custa a bola?",
             
                 "a" : "R$0,10",
@@ -141,7 +161,8 @@ var questions = [
             "correctAnswer":"c"
         },
         {
-            "questionTheme":"Ciências naturais",
+            "id": 15,
+            "img": natura,
             "questionContent":"Que substância é absorvida pelas plantas e expirada por todos os seres vivos?",
             
                 "a" : "Dioxido de carbono",
@@ -151,7 +172,8 @@ var questions = [
                 "correctAnswer":"a"
         },
         {
-            "questionTheme":"Ciências exatas",
+            "id": 16,
+            "img": exatas,
             "questionContent":"Caminhando ao fim da tarde, uma senhora contou 20 casas à sua direita. No regresso, ela contou 20 casa à sua esquerda. Quantas casas ela viu no total?",
             
                 "a" : "80",
@@ -162,7 +184,8 @@ var questions = [
             "correctAnswer":"c"
         },
         {
-            "questionTheme":"Ciências exatas",
+            "id": 17,
+            "img": exatas,
             "questionContent":"Pedro olhou para seu despertador e disse que daqui a seis horas e meia seriam quatro horas da manhã. A que horas Pedro olhou para o despertador? ",
             
                 "a" : "21h30",
@@ -173,7 +196,8 @@ var questions = [
             "correctAnswer":"a"
         },
         {
-            "questionTheme":"Ciências exatas",
+            "id": 18,
+            "img": exatas,
             "questionContent":"Qual é o valor da metade da metade do número 20?",
             
                 "a" : "5",

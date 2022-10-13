@@ -54,21 +54,18 @@ function Runners(){
                         <button className="btn-enter RaceOrder">ORDENAR</button>
                     </div>
 
-                    <div className="homebg">
-                        <div className="boxRace um"><p className="textRun">Dom Pedro I</p><svg className="arrowIcon A" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5" /></svg></div>
-                        <div className="boxRace dois"><p className="textRun">Duque de Caxias</p><svg className="arrowIcon B" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5" /></svg></div>
-                        <div className="boxRace tres"><p className="textRun">José Bonifácio</p><svg className="arrowIcon C" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5" /></svg></div>
-                        <div className="boxRace quatro"><p className="textRun">São José de Anchieta</p><svg className="arrowIcon D" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5" /></svg></div>
-                        <div className="boxRace cinco"><p className="textRun">Luís Gonzaga</p><svg className="arrowIcon E" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5" /></svg></div>
-                        <div className="boxRace seis"><p className="textRun">Heitor Villa-Lobos</p><svg className="arrowIcon F" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5" /></svg></div>
-                        <div className="boxRace sete"><p className="textRun">Joaquim Nabuco</p><svg className="arrowIcon G" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5" /></svg></div>
-                        <div className="boxRace oito"><p className="textRun">Antônio Carlos Gomes</p><svg className="arrowIcon H" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5" /></svg></div>
-                        <div className="boxRace nove"><p className="textRun">Luís Gonzaga</p><svg className="arrowIcon I" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5" /></svg></div>
-                        <div className="boxRace dez"><p className="textRun">Zumbi dos Palmares</p><svg className="arrowIcon J" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5" /></svg></div>
+                    <div className="homebg Runners">
+                        <div className="boxRace um"><p className="textRun">Dom Pedro I  </p><p>17min 54s</p></div>
+                        <div className="boxRace dois"><p className="textRun">Duque de Caxias    17min 54s</p></div>
+                        <div className="boxRace tres"><p className="textRun">José Bonifácio 17min 54s</p></div>
+                        <div className="boxRace quatro"><p className="textRun">São José de Anchieta 17min 54s</p></div>
+                        <div className="boxRace cinco"><p className="textRun">Luís Gonzaga  17min 54s</p></div>
+                        <div className="boxRace seis"><p className="textRun">Heitor Villa-Lobos 17min 54s</p></div>
+                        <div className="boxRace sete"><p className="textRun">Joaquim Nabuco 17min 54s</p></div>
+                        <div className="boxRace oito"><p className="textRun">Antônio Carlos   17min 54s</p></div>
+                        <div className="boxRace nove"><p className="textRun">Luís Gonzaga   17min 54s</p></div>
+                        <div className="boxRace dez"><p className="textRun">Zumbi dos Palmares  17min 54s</p></div>
                     </div>
-                </div>
-                <div className="add">
-                    <button className="btn-enter RaceAdd">ADICIONAR</button>
                 </div>
             </header>
             <footer>

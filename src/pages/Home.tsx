@@ -1,4 +1,3 @@
-import React from 'react'
 import {Link } from "react-router-dom";
 import styled from "styled-components";
 import {motion} from 'framer-motion'
@@ -46,13 +45,13 @@ const linkStyle1 = {
                 <div className="btnParent">
                 <NavUnlisted>
                     <button className="btn-enter">
-                        <Link style={linkStyle} to="/scan">Entrar</Link>
+                        <Link style={linkStyle} to="/registerUser">Entrar</Link>
                     </button>
                 </NavUnlisted>
 
                 <NavUnlisted>
                     <button className="btn-enter newRace">
-                        <Link style={linkStyle} to="/register">CRIAR NOVA CORRIDA</Link>
+                        <Link style={linkStyle} to="/registerHost">CRIAR NOVA CORRIDA</Link>
                     </button>
                     </NavUnlisted>
 

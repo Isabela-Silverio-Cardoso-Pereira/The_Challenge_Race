@@ -1,5 +1,4 @@
 import './App.css'
-import QuestionGenerator from './components/QuestionGenerator'
 import {BrowserRouter as Router} from "react-router-dom";
 import AnimatedRoutes from './components/AnimatedRoutes'
 
