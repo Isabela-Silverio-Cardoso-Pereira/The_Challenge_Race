@@ -1,11 +1,22 @@
 
 import { motion} from "framer-motion";
+import styled from "styled-components";
 import {Link } from "react-router-dom";
 
 function Challenges(){
-
+    const NavUnlisted = styled.ul`
+    text-decoration: none;
+`;
+const linkStyle = {
+    color: '#000',
+    textDecoration: "none",
+}
     return <>
-    <motion.div>
+    <motion.div
+    initial={{opacity: 0}}
+    animate={{opacity: 1}}
+    exit={{opacity: 0}}
+    >
             <header className="headerBg">
                 <div className="background">
                     <nav>
@@ -55,16 +66,16 @@ function Challenges(){
                     </div>
 
                     <div className="homebg">
-                        <div className="boxRace 1">Pergunta <svg className="arrowIcon  A" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg></div>
-                        <div className="boxRace 2">Pergunta <svg className="arrowIcon  B" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg></div>
-                        <div className="boxRace 3">Pergunta <svg className="arrowIcon  C" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg></div>
-                        <div className="boxRace 4">Pergunta <svg className="arrowIcon  D" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg></div>
-                        <div className="boxRace 5">Pergunta <svg className="arrowIcon  E" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg></div>
-                        <div className="boxRace 6">Pergunta <svg className="arrowIcon  F" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg></div>
-                        <div className="boxRace 7">Pergunta <svg className="arrowIcon  G" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg></div>
-                        <div className="boxRace 8">Pergunta <svg className="arrowIcon  H" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg></div>
-                        <div className="boxRace 9">Pergunta <svg className="arrowIcon  I" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg></div>
-                        <div className="boxRace 10">Pergunta <svg className="arrowIcon  J" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg></div>
+                    <Link style={linkStyle} to="/question"><div className="boxRace 1"><Link style={linkStyle} to="/question">Pergunta 1</Link> <Link style={linkStyle} to="/question"><svg className="arrowIcon  A" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg></Link></div></Link>
+                    <Link style={linkStyle} to="/question"><div className="boxRace 2"><Link style={linkStyle} to="/question">Pergunta 2</Link> <Link style={linkStyle} to="/question"><svg className="arrowIcon  B" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg></Link></div></Link>
+                    <Link style={linkStyle} to="/question"><div className="boxRace 3"><Link style={linkStyle} to="/question">Pergunta 3</Link> <Link style={linkStyle} to="/question"><svg className="arrowIcon  C" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg></Link></div></Link>
+                    <Link style={linkStyle} to="/question"><div className="boxRace 4"><Link style={linkStyle} to="/question">Pergunta 4</Link> <Link style={linkStyle} to="/question"><svg className="arrowIcon  D" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg></Link></div></Link>
+                    <Link style={linkStyle} to="/question"><div className="boxRace 5"><Link style={linkStyle} to="/question">Pergunta 5</Link><Link style={linkStyle} to="/question"><svg className="arrowIcon  E" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg></Link></div></Link>
+                    <Link style={linkStyle} to="/question"><div className="boxRace 6"><Link style={linkStyle} to="/question">Pergunta 6</Link> <Link style={linkStyle} to="/question"><svg className="arrowIcon  F" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg></Link></div></Link>
+                    <Link style={linkStyle} to="/question"><div className="boxRace 7"><Link style={linkStyle} to="/question">Pergunta 7</Link> <Link style={linkStyle} to="/question"><svg className="arrowIcon  G" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg></Link></div></Link>
+                    <Link style={linkStyle} to="/question"><div className="boxRace 8"><Link style={linkStyle} to="/question">Pergunta 8</Link> <Link style={linkStyle} to="/question"><svg className="arrowIcon  H" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg></Link></div></Link>
+                    <Link style={linkStyle} to="/question"><div className="boxRace 9"><Link style={linkStyle} to="/question">Pergunta 9</Link> <Link style={linkStyle} to="/question"><svg className="arrowIcon  I" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg></Link></div></Link>
+                    <Link style={linkStyle} to="/question"><div className="boxRace 10"><Link style={linkStyle} to="/question">Pergunta 10</Link> <Link style={linkStyle} to="/question"> <svg className="arrowIcon  J" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg></Link></div></Link>
                     </div>
                 </div>
                 <div className="add">

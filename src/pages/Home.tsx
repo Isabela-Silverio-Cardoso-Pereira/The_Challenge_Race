@@ -57,7 +57,7 @@ const linkStyle1 = {
 
                 <NavUnlisted>
                     <button className="btn-enter historic">
-                        <Link style={linkStyle1} to="">HISTÓRICO</Link>
+                        <Link style={linkStyle1} to="historic">HISTÓRICO</Link>
                     </button>
                 </NavUnlisted>
                 </div>

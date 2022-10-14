@@ -4,7 +4,11 @@ import {Link } from "react-router-dom";
 function Checkpoint(){
 
     return <>
-        <motion.div>
+        <motion.div
+        initial={{opacity: 0}}
+        animate={{opacity: 1}}
+        exit={{opacity: 0}}
+        >
             <header className="headerBg">
                 <div className="background">
                     <nav>

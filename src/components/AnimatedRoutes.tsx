@@ -11,6 +11,9 @@ import Race from '../pages/Race'
 import Runners from '../pages/Runners'
 import Checkpoints from '../pages/Checkpoints'
 import Challenges from '../pages/Challenges'
+import Historic from '../pages/Historic'
+import RaceHistoric from '../pages/raceHistoric'
+import Question from '../pages/Question'
 
 
 function AnimatedRoutes() {
@@ -35,7 +38,9 @@ function AnimatedRoutes() {
             <Route path="/runners" element={<Runners/>}></Route>
             <Route path="/checkpoints" element={<Checkpoints/>}></Route>
             <Route path="/challenges" element={<Challenges/>}></Route>
-
+            <Route path="/historic" element={<Historic/>}></Route>
+            <Route path="/raceHistoric" element={<RaceHistoric/>}></Route>
+            <Route path="/question" element={<Question/>}></Route>
 
         </Routes>
     </AnimatePresence>

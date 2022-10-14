@@ -62,6 +62,19 @@ footer {
 .checkpoint {
   text-indent: -32px;
 }
+.textHisNum {
+  left: 280px;
+  top: 0px;
+  font-size: 25px;
+  position: absolute;
+}
+.textHis {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.infoHistoric {
+  left: 10px;
+}
 .challenges {
   text-indent: -19px;
 }
@@ -146,7 +159,7 @@ footer {
 }
 .background {
   background-color: #bf1e2e;
-  height: 160px;
+  height: 250px;
 }
 .homebg {
   background-color: #fff;
@@ -664,6 +677,33 @@ html {
     flex-direction: column;
     font-size: 1.2rem;    
     height: 19rem;
+  }
+  .titleHis {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
+    flex-direction: column;
+    font-size: 3.2rem;
+    height: 19rem;
+    top: -121px;
+    color: #fff;
+  }
+  .racehistoric {
+    background-color: #fff;
+    width: 22rem;
+    height: 35rem;
+    margin-top: 48px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+    position: initial;
+    padding: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
   }
   .newRace {
     width: 18rem;
