@@ -29,6 +29,94 @@ footer {
   width: 100%;
   height: 5.7rem;
 }
+.control {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.control input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.control__indicator {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background: #e6e6e6;
+}
+.control--radio .control__indicator {
+  border-radius: 50%;
+}
+.control:hover input ~ .control__indicator,
+.control input:focus ~ .control__indicator {
+  background: #ccc;
+}
+.control input:checked ~ .control__indicator {
+  background: #bf1e2e;
+}
+
+.control__indicator:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+.control input:checked ~ .control__indicator:after {
+  display: block;
+}
+.control--checkbox .control__indicator:after {
+  left: 8px;
+  top: 4px;
+  width: 3px;
+  height: 8px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.control--radio .control__indicator:after {
+  left: 7px;
+  top: 7px;
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.select {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.select select {
+  display: inline-block;
+  width: 100%;
+  cursor: pointer;
+  padding: 10px 15px;
+  outline: 0;
+  border: 0;
+  border-radius: 0;
+  background: #e6e6e6;
+  color: #7b7b7b;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.select select::-ms-expand {
+  display: none;
+}
+.select select:hover,
+.select select:focus {
+  color: #000;
+  background: #ccc;
+}
+
 .fInputTxtRace {
   display: flex;
   justify-content: center;
@@ -56,8 +144,53 @@ footer {
   background-color: #fff;
 }
 .add {
-  top: 34rem;
+  top: 29rem;
   text-align: center;
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.svgImg {
+  width: 2rem;
+  left: -16px;
+}
+.qAdd {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  border: transparent;
+  height: 40px;
+  background: #BF1E2E;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 5px 24px;
+  margin-top: 3rem;
+  color: #fff;
+  margin-top: 1rem;
+  width: 0px;
+
+}
+.w3A {
+  width: 20rem;
+  height: 3rem;
+  margin-top: 4px;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.w3-input {
+  width: 19rem;
+  height: auto;
+  margin-top: 4px;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.textResp {
+  margin-top: 10px;
 }
 .checkpoint {
   text-indent: -32px;
@@ -160,6 +293,12 @@ footer {
 .background {
   background-color: #bf1e2e;
   height: 250px;
+}
+.titlePrevious {
+  bottom: 90px;
+}
+.spanP {
+  top: 200px;
 }
 .homebg {
   background-color: #fff;
@@ -657,6 +796,79 @@ li {
 html {
   scroll-behavior: smooth;
 }
+
+
+
+.small {
+  font-size: 20px;
+}
+
+
+
+/* Custom dropdown */
+.custom-dropdown {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px; /* demo only */
+}
+
+.custom-dropdown select {
+  background-color: #bf1e2e;
+  color: #fff;
+  font-size: inherit;
+  padding: 0.5em;
+  padding-right: 2.5em;
+  border: 0;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  border-radius: 5px;
+  text-indent: 0.01px;
+  top: 125px;
+}
+.imgP {
+  position: absolute;
+  width: 363px;
+  top: 69px;
+}
+.imgRunnerM {
+  position: absolute;
+  width: 377px;
+  left: 6px;
+}
+.subtitle {
+  top: 22rem;
+}
+.bgRunnerM {
+  position: absolute;
+  margin-top: -6rem;
+  text-align: center;
+}
+.btn {
+  font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    border: transparent;
+    height: 40px;
+    background: #BF1E2E;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px 24px;
+    margin-top: 10rem;
+}
+.buttonCenter {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  margin: 0 15px;
+  flex-direction: column;
+  text-align: center;
+}
+.upground {
+
+}
+
+
+
 .btn-enter {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
@@ -689,6 +901,21 @@ html {
     height: 19rem;
     top: -121px;
     color: #fff;
+  }
+  .questionHistoric {
+    background-color: #fff;
+    width: 22rem;
+    height: 40rem;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+    position: initial;
+    padding: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
   }
   .racehistoric {
     background-color: #fff;

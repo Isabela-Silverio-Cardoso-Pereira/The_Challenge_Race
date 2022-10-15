@@ -28,16 +28,95 @@ const linkStyle = {
                         </div>
                     </nav>
 
-                    <div className="racehistoric">
+                    <div className="questionHistoric">
                         <div className="infoHistoric">
-                            <p className="textHis">Nome da Pergunta</p>{/** input*/}
-                            <p className="textHis">Conteúdo da Resposta</p>{/** input e caixa de texto grande*/}
-                            <p className="textHis">A - </p>
-                            <p className="textHis">B - </p>
-                            <p className="textHis">C - </p>
-                            <p className="textHis">D - </p>
-                            <p className="textHis">Quais das alternativas são verdadeiras? </p>{/** select*/}
-                            <p className="textHis">Imagem da questão </p>{/** button*/}
+                            <form className="w3-container">
+                                <p className="textResp">
+                                <label>Nome da pergunta: </label>
+                                </p>
+                                <div className="fInputTxtRace">
+                                    <label htmlFor="inp" className="inpN">
+                                        <input id="inpN" placeholder="Nome" pattern=".{6,}" required></input>
+                                        <svg width="280px" height="18px" viewBox="0 0 280 18" className="border">
+                                            <path d="M0,12 L223.166144,12 C217.241379,12 217.899687,12 225.141066,12 C236.003135,12 241.9279,12 249.827586,12 C257.727273,12 264.639498,12 274.514107,12 C281.097179,12 281.755486,12 276.489028,12"></path>
+                                        </svg>                                       
+                                    </label>
+                                </div>
+
+                                <p className="textResp">
+                                <label>Conteúdo da pergunta: </label>
+                                </p>
+                                <div className="fInputTxtRace">
+                                    <label htmlFor="inp" className="inpN">
+                                        <input id="inpN" placeholder="Pergunta" pattern=".{6,}" required></input>
+                                        <svg width="280px" height="18px" viewBox="0 0 280 18" className="border">
+                                            <path d="M0,12 L223.166144,12 C217.241379,12 217.899687,12 225.141066,12 C236.003135,12 241.9279,12 249.827586,12 C257.727273,12 264.639498,12 274.514107,12 C281.097179,12 281.755486,12 276.489028,12"></path>
+                                        </svg>                                       
+                                    </label>
+                                </div>
+
+                                <p className="textResp">
+                                <label>Alternativas: </label>
+                                </p>
+
+                                <div className="fInputTxtRace">
+                                    <label htmlFor="inp" className="inpN">
+                                        <input id="inpN" placeholder="A" pattern=".{6,}" required></input>
+                                        <svg width="280px" height="18px" viewBox="0 0 280 18" className="border">
+                                            <path d="M0,12 L223.166144,12 C217.241379,12 217.899687,12 225.141066,12 C236.003135,12 241.9279,12 249.827586,12 C257.727273,12 264.639498,12 274.514107,12 C281.097179,12 281.755486,12 276.489028,12"></path>
+                                        </svg>                                       
+                                    </label>
+                                </div>
+
+                                <div className="fInputTxtRace">
+                                    <label htmlFor="inp" className="inpN">
+                                        <input id="inpN" placeholder="B" pattern=".{6,}" required></input>
+                                        <svg width="280px" height="18px" viewBox="0 0 280 18" className="border">
+                                            <path d="M0,12 L223.166144,12 C217.241379,12 217.899687,12 225.141066,12 C236.003135,12 241.9279,12 249.827586,12 C257.727273,12 264.639498,12 274.514107,12 C281.097179,12 281.755486,12 276.489028,12"></path>
+                                        </svg>                                       
+                                    </label>
+                                </div>
+
+                                <div className="fInputTxtRace">
+                                    <label htmlFor="inp" className="inpN">
+                                        <input id="inpN" placeholder="C" pattern=".{6,}" required></input>
+                                        <svg width="280px" height="18px" viewBox="0 0 280 18" className="border">
+                                            <path d="M0,12 L223.166144,12 C217.241379,12 217.899687,12 225.141066,12 C236.003135,12 241.9279,12 249.827586,12 C257.727273,12 264.639498,12 274.514107,12 C281.097179,12 281.755486,12 276.489028,12"></path>
+                                        </svg>                                       
+                                    </label>
+                                </div>
+
+                                <div className="fInputTxtRace">
+                                    <label htmlFor="inp" className="inpN">
+                                        <input id="inpN" placeholder="D" pattern=".{6,}" required></input>
+                                        <svg width="280px" height="18px" viewBox="0 0 280 18" className="border">
+                                            <path d="M0,12 L223.166144,12 C217.241379,12 217.899687,12 225.141066,12 C236.003135,12 241.9279,12 249.827586,12 C257.727273,12 264.639498,12 274.514107,12 C281.097179,12 281.755486,12 276.489028,12"></path>
+                                        </svg>                                       
+                                    </label>
+                                </div>
+                            </form>
+                            <p>Quais das alternativas são verdadeiras?</p>{/** select*/}
+                            <div className="custom-select">
+                            <label className="control control--radio">A
+                                <input type="radio" name="radio"/>
+                                <div className="control__indicator"></div>
+                            </label>
+                            <label className="control control--radio">B
+                                <input type="radio" name="radio"/>
+                                <div className="control__indicator"></div>
+                            </label>
+                            <label className="control control--radio">C
+                                <input type="radio" name="radio"/>
+                                <div className="control__indicator"></div>
+                            </label>
+                            <label className="control control--radio">D
+                                <input type="radio" name="radio"/>
+                                <div className="control__indicator"></div>
+                            </label>
+</div>
+                            <p>Imagem da questão </p>
+                            <button className="qAdd"><svg className="svgImg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 001.5-1.5V6a1.5 1.5 0 00-1.5-1.5H3.75A1.5 1.5 0 002.25 6v12a1.5 1.5 0 001.5 1.5zm10.5-11.25h.008v.008h-.008V8.25zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" /></svg>
+</button>
                         </div>
                     </div>
                 </div>

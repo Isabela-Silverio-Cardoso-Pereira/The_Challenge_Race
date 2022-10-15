@@ -22,9 +22,9 @@ function Congrats() {
             <path fill="#BF1E2E" fill-opacity="1" d="M0,128L80,117.3C160,107,320,85,480,101.3C640,117,800,171,960,192C1120,213,1280,203,1360,197.3L1440,192L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path>
         </svg>
         <div className="headline winner">
-            <h1>Parabéns</h1>
+            <h1>Parabéns!</h1>
             <div className="subtitle">
-                <span>Você concluiu a corrida</span>
+                <span>Você concluiu a corrida.</span>
             </div>
 
         </div>

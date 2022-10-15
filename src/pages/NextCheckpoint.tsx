@@ -1,5 +1,5 @@
 import {motion} from 'framer-motion'
-import win from '../assets/img/win.svg'
+import runnner from "../assets/img/runnerMale.svg"
 import {Link } from "react-router-dom";
 import styled from "styled-components";
 
@@ -26,16 +26,19 @@ function Congrats() {
             <div className="subtitle">
                 <span>corra!</span>
             </div>
+            <div className="subtitle">
+                <span>Corra para o próximo ponto!</span>
+            </div>
 
         </div>
-        <div className="bgWin">
-        <img src={win} className="imgWin"></img>
+        <div className="bgRunnerM">
+        <img src={runnner} className="imgRunnerM"></img>
         </div>
 
     <div className="btnParent">
         <NavUnlisted>
             <button className="btn-enter win">
-                <Link style={linkStyle} to="/">VER PLACAR</Link>
+                <Link style={linkStyle} to="/scan">OK</Link>
             </button>
         </NavUnlisted>
     </div>
