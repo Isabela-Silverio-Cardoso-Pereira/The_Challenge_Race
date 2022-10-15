@@ -26,9 +26,9 @@ const linkStyle1 = {
             </svg>
 
             <div className="headline">
-                <h1>Bem-Vindo</h1>
+                <h1 className="HiperTitle">Bem-Vindo</h1>
                 <div className="subtitle">
-                    <span>O que deseja fazer?</span>
+                    <span className="subsubtitle">O que deseja fazer?</span>
                 </div>
             </div>
 
@@ -42,12 +42,18 @@ const linkStyle1 = {
                     <path d="M1 7 5.5 11 L13 1"></path>
                 </svg>
                 </label>
-                <div className="btnParent">
+                <div className="btnHomeP">
                 <NavUnlisted>
-                    <button className="btn-enter">
+                    <button className="btnHome">
                         <Link style={linkStyle} to="/registerUser">Entrar</Link>
                     </button>
                 </NavUnlisted>
+                </div>
+
+
+
+                <div className="btnParent">
+                
 
                 <NavUnlisted>
                     <button className="btn-enter newRace">

@@ -591,6 +591,22 @@ li {
   width: 100%;
   max-width: 280px;
   height: 53px;
+  bottom: 115px;
+}
+.btnHomeP {
+  text-align: center;
+}
+.btnHome {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  border: transparent;
+  height: 40px;
+  background: #BF1E2E;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 5px 24px;
+  margin-top: 3rem;
+  bottom: 125px;
 }
 .inp .border {
   position: absolute;
@@ -802,15 +818,18 @@ html {
 .small {
   font-size: 20px;
 }
-
-
-
+.HiperTitle {
+  bottom: 130px;
+}
 /* Custom dropdown */
 .custom-dropdown {
   position: relative;
   display: inline-block;
   vertical-align: middle;
   margin: 10px; /* demo only */
+}
+.subsubtitle {
+  bottom: 465px;
 }
 
 .custom-dropdown select {
