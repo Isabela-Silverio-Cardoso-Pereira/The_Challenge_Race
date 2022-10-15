@@ -14,7 +14,7 @@ import Challenges from '../pages/Challenges'
 import Historic from '../pages/Historic'
 import RaceHistoric from '../pages/RaceHistoric'
 import Question from '../pages/Question'
-import PreviousRace from '../pages/previousRace'
+import PreviousRace from '../pages/PreviousRace'
 import NextCheckpoint from '../pages/NextCheckpoint'
 
 
