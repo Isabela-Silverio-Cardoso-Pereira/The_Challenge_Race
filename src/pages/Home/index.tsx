@@ -45,7 +45,7 @@ const linkStyle1 = {
                 <div className="btnHomeP">
                 <NavUnlisted>
                     <button className="btnHome">
-                        <Link style={linkStyle} to="/scan">Entrar</Link>
+                        <Link style={linkStyle} to="/scan">ENTRAR</Link>
                     </button>
                 </NavUnlisted>
                 </div>
@@ -53,17 +53,15 @@ const linkStyle1 = {
 
 
                 <div className="btnParent">
-                
-
                 <NavUnlisted>
                     <button className="btn-enter newRace">
-                        <Link style={linkStyle} to="/registerHost">CRIAR NOVA CORRIDA</Link>
+                        <Link style={linkStyle} to="/race">CRIAR NOVA CORRIDA</Link>
                     </button>
-                    </NavUnlisted>
+                </NavUnlisted>
 
                 <NavUnlisted>
                     <button className="btn-enter historic">
-                        <Link style={linkStyle1} to="historic">HISTÓRICO</Link>
+                        <Link style={linkStyle1} to="/historic">HISTÓRICO</Link>
                     </button>
                 </NavUnlisted>
                 </div>

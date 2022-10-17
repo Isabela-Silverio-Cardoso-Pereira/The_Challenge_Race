@@ -2,10 +2,10 @@ import {Link, useNavigate } from "react-router-dom";
 import styled from "styled-components";
 import {motion} from 'framer-motion'
 import { useContext, useState } from "react";
-import { AuthContext } from "../contexts/Auth/AuthContext";
+import { AuthContext } from "../../contexts/Auth/AuthContext";
 
 
-export const RegisterHost = () => {
+export const Register = () => {
     const auth = useContext(AuthContext)
     const navigate = useNavigate()
 
@@ -17,7 +17,7 @@ export const RegisterHost = () => {
         if (name && email && password ) {
             const isLogged = await auth.signin(name, email, password)
             if(isLogged) {
-                navigate('/race')
+                navigate('/')
             } else {
                 alert("Não deu certo.")
             }

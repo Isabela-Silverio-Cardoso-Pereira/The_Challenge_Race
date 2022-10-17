@@ -1,5 +1,5 @@
 import {motion} from 'framer-motion'
-import runnner from "../assets/img/runnerMale.svg"
+import runnner from "../../assets/img/runnerMale.svg"
 import {Link } from "react-router-dom";
 import styled from "styled-components";
 

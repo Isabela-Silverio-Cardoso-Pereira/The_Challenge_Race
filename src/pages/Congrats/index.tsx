@@ -1,5 +1,5 @@
 import {motion} from 'framer-motion'
-import win from '../assets/img/win.svg'
+import win from '../../assets/img/win.svg'
 import {Link } from "react-router-dom";
 import styled from "styled-components";
 

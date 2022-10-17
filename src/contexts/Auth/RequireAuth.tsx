@@ -1,12 +1,12 @@
 import { useContext } from "react"
-import { RegisterHost } from "../../pages/RegisterHost"
+import { Register } from "../../pages/Register"
 import { AuthContext } from "./AuthContext"
 
 export const RequireAuth = ({ children }: {children: JSX.Element}) => {
     const auth = useContext(AuthContext)
 
     if(!auth.user) {
-        return <RegisterHost/>
+        return <Register/>
     }
     
     return children

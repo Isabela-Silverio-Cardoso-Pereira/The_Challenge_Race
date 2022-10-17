@@ -1,7 +1,7 @@
 import {Link } from "react-router-dom";
 import styled from "styled-components";
 import {motion} from 'framer-motion'
-import runnner from "../assets/img/run.svg"
+import runnner from "../../assets/img/run.svg"
 
 function PreviousRace() {
 
