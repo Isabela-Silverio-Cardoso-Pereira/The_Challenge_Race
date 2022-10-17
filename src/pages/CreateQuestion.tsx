@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { motion } from 'framer-motion'
 import styled from "styled-components";
 
-function Question() {
+function CreateQuestion() {
     const NavUnlisted = styled.ul`
     text-decoration: none;
     text-align: center;
@@ -95,7 +95,7 @@ const linkStyle = {
                                     </label>
                                 </div>
                             </form>
-                            <p>Quais das alternativas são verdadeiras?</p>{/** select*/}
+                            <p>Qual alternativa é verdadeira?</p>{/** select*/}
                             <div className="custom-select">
                             <label className="control control--radio">A
                                 <input type="radio" name="radio"/>
@@ -136,4 +136,4 @@ const linkStyle = {
     </>
 }
 
-export default Question
+export default CreateQuestion

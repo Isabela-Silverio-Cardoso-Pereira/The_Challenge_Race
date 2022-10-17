@@ -1,22 +1,22 @@
-
-import { motion} from "framer-motion";
-import styled from "styled-components";
+import { motion } from "framer-motion";
+import { useContext } from "react";
 import {Link } from "react-router-dom";
+import { AuthContext } from "../../contexts/Auth/AuthContext";
 
-function Challenges(){
-    const NavUnlisted = styled.ul`
-    text-decoration: none;
-`;
-const linkStyle = {
-    color: '#000',
-    textDecoration: "none",
-}
+function Checkpoint(){
+    const auth = useContext(AuthContext)
+
+
+    const handleLogout = async() => {
+        await auth.signout()
+        window.location.href = window.location.href
+    }
     return <>
-    <motion.div
-    initial={{opacity: 0}}
-    animate={{opacity: 1}}
-    exit={{opacity: 0}}
-    >
+        <motion.div
+        initial={{opacity: 0}}
+        animate={{opacity: 1}}
+        exit={{opacity: 0}}
+        >
             <header className="headerBg">
                 <div className="background">
                     <nav>
@@ -39,8 +39,11 @@ const linkStyle = {
                                     <svg className="logOutIcon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15m3 0l3-3m0 0l-3-3m3 3H9" />
                                     </svg>
-                                    <li className="logOutText"> Desconectar </li>
-                                    
+                                    {
+                                            auth.user
+                                            &&
+                                            <a className="logOutText" onClick={handleLogout}> <p className="desconect">Desconectar</p> </a>
+                                        }
                                 </div>
                             </div>
                         </div>
@@ -66,16 +69,17 @@ const linkStyle = {
                     </div>
 
                     <div className="homebg">
-                    <Link style={linkStyle} to="/question"><div className="boxRace 1"><Link style={linkStyle} to="/question">Pergunta 1</Link> <Link style={linkStyle} to="/question"><svg className="arrowIcon  A" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg></Link></div></Link>
-                    <Link style={linkStyle} to="/question"><div className="boxRace 2"><Link style={linkStyle} to="/question">Pergunta 2</Link> <Link style={linkStyle} to="/question"><svg className="arrowIcon  B" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg></Link></div></Link>
-                    <Link style={linkStyle} to="/question"><div className="boxRace 3"><Link style={linkStyle} to="/question">Pergunta 3</Link> <Link style={linkStyle} to="/question"><svg className="arrowIcon  C" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg></Link></div></Link>
-                    <Link style={linkStyle} to="/question"><div className="boxRace 4"><Link style={linkStyle} to="/question">Pergunta 4</Link> <Link style={linkStyle} to="/question"><svg className="arrowIcon  D" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg></Link></div></Link>
-                    <Link style={linkStyle} to="/question"><div className="boxRace 5"><Link style={linkStyle} to="/question">Pergunta 5</Link><Link style={linkStyle} to="/question"><svg className="arrowIcon  E" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg></Link></div></Link>
-                    <Link style={linkStyle} to="/question"><div className="boxRace 6"><Link style={linkStyle} to="/question">Pergunta 6</Link> <Link style={linkStyle} to="/question"><svg className="arrowIcon  F" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg></Link></div></Link>
-                    <Link style={linkStyle} to="/question"><div className="boxRace 7"><Link style={linkStyle} to="/question">Pergunta 7</Link> <Link style={linkStyle} to="/question"><svg className="arrowIcon  G" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg></Link></div></Link>
-                    <Link style={linkStyle} to="/question"><div className="boxRace 8"><Link style={linkStyle} to="/question">Pergunta 8</Link> <Link style={linkStyle} to="/question"><svg className="arrowIcon  H" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg></Link></div></Link>
-                    <Link style={linkStyle} to="/question"><div className="boxRace 9"><Link style={linkStyle} to="/question">Pergunta 9</Link> <Link style={linkStyle} to="/question"><svg className="arrowIcon  I" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg></Link></div></Link>
-                    <Link style={linkStyle} to="/question"><div className="boxRace 10"><Link style={linkStyle} to="/question">Pergunta 10</Link> <Link style={linkStyle} to="/question"> <svg className="arrowIcon  J" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg></Link></div></Link>
+
+                        <div className="boxRace first"><p className="textCheck">Cão guia</p><svg className="arrowDownIcon A" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5" /></svg></div>
+                        <div className="boxRace second"><p className="textCheck">Refeitório antigo</p><svg className="arrowDownIcon B" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5" /></svg></div>
+                        <div className="boxRace third"><p className="textCheck">Bloco B</p><svg className="arrowDownIcon C" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5" /></svg></div>
+                        <div className="boxRace fourth"><p className="textCheck">Bloco J</p><svg className="arrowDownIcon D" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5" /></svg></div>
+                        <div className="boxRace fifth"><p className="textCheck">Refeitório</p><svg className="arrowDownIcon E" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5" /></svg></div>
+                        <div className="boxRace sixth"><p className="textCheck">Biblioteca</p><svg className="arrowDownIcon F" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5" /></svg></div>
+                        <div className="boxRace seventh"><p className="textCheck">Bloco F</p><svg className="arrowDownIcon G" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5" /></svg></div>
+                        <div className="boxRace eighth"><p className="textCheck">Bloco G</p><svg className="arrowDownIcon H" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5" /></svg></div>
+                        <div className="boxRace ninth"><p className="textCheck">Antiga Cantina</p><svg className="arrowDownIcon I" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5" /></svg></div>
+                        <div className="boxRace tenth"><p className="textCheck">Corredor central</p><svg className="arrowDownIcon J" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5" /></svg></div>
                     </div>
                 </div>
                 <div className="add">
@@ -91,4 +95,4 @@ const linkStyle = {
     </>
 }
 
-export default Challenges
+export default Checkpoint

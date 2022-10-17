@@ -1,9 +1,28 @@
-import {Link } from "react-router-dom";
+import {Link, useNavigate } from "react-router-dom";
 import styled from "styled-components";
-import { useForm } from 'react-hook-form'
 import {motion} from 'framer-motion'
+import { useContext, useState } from "react";
+import { AuthContext } from "../contexts/Auth/AuthContext";
 
-function Register() {
+
+export const RegisterHost = () => {
+    const auth = useContext(AuthContext)
+    const navigate = useNavigate()
+
+    const [name, setName] = useState('')
+    const [email, setEmail] = useState('')
+    const [password, setPassword] = useState('')
+
+    const handleLogin = async() => {
+        if (name && email && password ) {
+            const isLogged = await auth.signin(name, email, password)
+            if(isLogged) {
+                navigate('/race')
+            } else {
+                alert("Não deu certo.")
+            }
+        }
+    }
 
 const NavUnlisted = styled.ul`
     text-decoration: none;
@@ -12,12 +31,6 @@ const linkStyle = {
     color: '#fff',
     textDecoration: "none",
 }
-const {
-    register,
-    handleSubmit,
-    formState: { errors }
-} = useForm();
-const onSubmit = (values: any) => alert(JSON.stringify(values, null, 2));
 
     return <>
     <motion.div
@@ -35,22 +48,42 @@ const onSubmit = (values: any) => alert(JSON.stringify(values, null, 2));
 
             <div className="fInputTxt">
                 <label htmlFor="inp" className="inpN">
-                    <input id="inpN" placeholder="Nome" pattern=".{6,}" required></input>
-                    <svg width="280px" height="18px" viewBox="0 0 280 18" className="border">
-                        <path d="M0,12 L223.166144,12 C217.241379,12 217.899687,12 225.141066,12 C236.003135,12 241.9279,12 249.827586,12 C257.727273,12 264.639498,12 274.514107,12 C281.097179,12 281.755486,12 276.489028,12"></path>
-                    </svg>
-                </label>
-
-                <label onSubmit={handleSubmit(onSubmit)} htmlFor="inp" className="inpN">
-                    <input type="text" id="inpN" placeholder="Email" pattern=".{6,}" required {...register("email", { required: true, pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i })}/>
-                    {errors.email && <span>Email inválido</span>}
+                    <input 
+                    id="inpN" 
+                    placeholder="Nome" 
+                    pattern=".{6,}" 
+                    value={name} 
+                    onChange={e => setName(e.target.value)}
+                    required
+                    ></input>
                     <svg width="280px" height="18px" viewBox="0 0 280 18" className="border">
                         <path d="M0,12 L223.166144,12 C217.241379,12 217.899687,12 225.141066,12 C236.003135,12 241.9279,12 249.827586,12 C257.727273,12 264.639498,12 274.514107,12 C281.097179,12 281.755486,12 276.489028,12"></path>
                     </svg>
                 </label>
 
                 <label htmlFor="inp" className="inpN">
-                    <input type="password" id="inpN" placeholder="Senha" pattern=".{6,}" required></input>
+                    <input 
+                    type="text" 
+                    id="inpN" 
+                    placeholder="Email" 
+                    pattern=".{6,}"
+                    value={email} 
+                    onChange={e => setEmail(e.target.value)} 
+                    required/>
+                    <svg width="280px" height="18px" viewBox="0 0 280 18" className="border">
+                        <path d="M0,12 L223.166144,12 C217.241379,12 217.899687,12 225.141066,12 C236.003135,12 241.9279,12 249.827586,12 C257.727273,12 264.639498,12 274.514107,12 C281.097179,12 281.755486,12 276.489028,12"></path>
+                    </svg>
+                </label>
+
+                <label htmlFor="inp" className="inpN">
+                    <input 
+                    type="password" 
+                    id="inpN" 
+                    placeholder="Senha" 
+                    pattern=".{6,}"
+                    value={password} 
+                    onChange={e => setPassword(e.target.value)} 
+                    required></input>
                     <svg width="280px" height="18px" viewBox="0 0 280 18" className="border">
                         <path d="M0,12 L223.166144,12 C217.241379,12 217.899687,12 225.141066,12 C236.003135,12 241.9279,12 249.827586,12 C257.727273,12 264.639498,12 274.514107,12 C281.097179,12 281.755486,12 276.489028,12"></path>
                     </svg>
@@ -58,7 +91,7 @@ const onSubmit = (values: any) => alert(JSON.stringify(values, null, 2));
 
                 <div className="btnParent">
                 <NavUnlisted>
-                    <button className="btn-enter">
+                    <button className="btn-enter" onClick={handleLogin}>
                         <Link style={linkStyle} to="/race">
                             Enviar
                         </Link>
@@ -75,5 +108,3 @@ const onSubmit = (values: any) => alert(JSON.stringify(values, null, 2));
     </motion.div>
     </>
 }
-
-export default Register

@@ -330,7 +330,7 @@ p {
   right: 15px
 }
 .logOutText {
-  top: 375px;
+  top: 380px;
 }
 .container {
   max-width: 1050px;
@@ -400,7 +400,6 @@ li {
   text-decoration: none;
   color: #0e2431;
   font-weight: 500;
-  font-size: 1.2rem;
   padding: 0.7rem;
   right: 18px;
 }
@@ -581,10 +580,11 @@ li {
 ::placeholder {
   color: #9098a9;
 }
-
-
-
-
+.desconect {
+  font-family: "Open Sans", sans;
+  font-size: 30px;
+  top: -4px;
+}
 .inp {
   position: relative;
   margin: auto;

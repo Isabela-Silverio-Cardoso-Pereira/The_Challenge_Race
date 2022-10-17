@@ -45,7 +45,7 @@ const linkStyle1 = {
                 <div className="btnHomeP">
                 <NavUnlisted>
                     <button className="btnHome">
-                        <Link style={linkStyle} to="/registerUser">Entrar</Link>
+                        <Link style={linkStyle} to="/scan">Entrar</Link>
                     </button>
                 </NavUnlisted>
                 </div>
