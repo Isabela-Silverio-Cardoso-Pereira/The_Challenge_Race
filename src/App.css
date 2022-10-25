@@ -12,8 +12,6 @@ html, body, #root {
   overflow-y: hidden;
   margin: 0;
 }
-
-
 body {
   background: #fff;
   font-family: "Open Sans", sans;
@@ -445,10 +443,6 @@ li {
   border-radius: 10px;
   background: #fff;
 }
-
-
-
-
 .nav-container .hamburger-lines .line1 {
   transform-origin: 0% 0%;
   transition: transform 0.4s ease-in-out;
@@ -821,12 +815,12 @@ html {
 .HiperTitle {
   bottom: 130px;
 }
-/* Custom dropdown */
+
 .custom-dropdown {
   position: relative;
   display: inline-block;
   vertical-align: middle;
-  margin: 10px; /* demo only */
+  margin: 10px; 
 }
 .subsubtitle {
   bottom: 465px;
@@ -882,12 +876,6 @@ html {
   flex-direction: column;
   text-align: center;
 }
-.upground {
-
-}
-
-
-
 .btn-enter {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;

@@ -12,7 +12,7 @@ export const useApi = () => ({
         const response = await api.post('/validate', {token})
         return response.data
     },
-    signin: async (email: string, password: string) => {
+    signin: async (name: string, email: string, password: string) => {
         return {
             user: {id:3, name: 'José', email:'jose@gamil.com'},
             token: '123456789'

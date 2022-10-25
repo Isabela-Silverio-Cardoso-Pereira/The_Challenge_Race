@@ -159,35 +159,35 @@ function Quiz() {
     
     // }
     
-    return <>
-    <div className="all" >
-    {posts.map((post) => (
+    // return <>
+    // <div className="all" >
+    // {posts.map((post) => (
 
         
-    <>
-        <div className="bg" key={posts.id}>
-            <img src={post.img} ></img>
-        </div><div className="question">
-                <h2 className="questionText">
-                    {post.questionContent}
-                </h2>
-            </div><div className="alternatives">
-                <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>{post.a}</a>
-                <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>{post.b}</a>
-                <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>{post.c}</a>
-                <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>{post.d}</a>
-        </div>
-    </>
-            ))}  
+    // <>
+    //     <div className="bg" key={posts.id}>
+    //         <img src={post.img} ></img>
+    //     </div><div className="question">
+    //             <h2 className="questionText">
+    //                 {post.questionContent}
+    //             </h2>
+    //         </div><div className="alternatives">
+    //             <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>{post.a}</a>
+    //             <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>{post.b}</a>
+    //             <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>{post.c}</a>
+    //             <a href="#" className="alternativeChild" id='answers' onClick={() => changeStyle()}>{post.d}</a>
+    //     </div>
+    // </>
+    //         ))}  
     
-        <div className="btnParent">
-            <NavUnlisted>
-                    <button className="btn-enter toWin">
-                        <Link style={linkStyle} to="/congrats">toWin</Link>
-                    </button>
-            </NavUnlisted>
-        </div>
-    </div>
+    //     <div className="btnParent">
+    //         <NavUnlisted>
+    //                 <button className="btn-enter toWin">
+    //                     <Link style={linkStyle} to="/congrats">toWin</Link>
+    //                 </button>
+    //         </NavUnlisted>
+    //     </div>
+    // </div>
         
         {/* <div className="app">
             <StepProgressBar
@@ -227,6 +227,6 @@ function Quiz() {
             ]}
             />
         </div> */}
-        </>
+        // </>
 }
 export default Quiz
