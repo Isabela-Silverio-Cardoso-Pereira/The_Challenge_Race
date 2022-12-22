@@ -1,6 +1,6 @@
 
 <div align="center">
-    <img src=".github\ChallengeRace__3_-removebg-preview.png" width="800px"/>
+    <img src=".github\ChallengeRace__3_-removebg-preview.png" width="600px"/>
 </div>
 
 
