@@ -36,7 +36,7 @@
 <div align="center">
     <img src=".github\quiz.png" width="200px"/>
     <img src=".github\home.png" width="200px"/>
-    <img src=".github\register.png" width="200px"/>
+    <img src=".github\Register.png" width="200px"/>
 </div>
 
 Project developed to be used in the Physical Education discipline, mixing physical activity with a quiz. The host of the race will determine the stopping points, generating the route of the race, at each point there will be a QrCode that will direct the participant(s) to the question on the web,
