@@ -43,6 +43,10 @@ Project developed to be used in the Physical Education discipline, mixing physic
 the participant will only be able to move to the next point if they answer correctly, to prevent the participant from clicking on all the options quickly to move to the next level there will be a cooldown system. The Host will be following the progress of all race participants by cell phone,
 thus viewing the number of hits and misses, running time, current position and name (person or team).
 
+<p align="center">
+    <img alt="gif-mobile" src=".github\gif-mobile.gif" width="40%">    
+</p>
+
 # Design:
 
 Figma: https://www.figma.com/file/7MmJduA2ZcpwIxwrQ7fOW1/App---Runners-(mescla)?node-id=38%3A259
