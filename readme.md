@@ -50,3 +50,32 @@ thus viewing the number of hits and misses, running time, current position and n
 # 👨🏽‍🎨Layout:
 You can preview the project layout through [this link](https://www.figma.com/file/7MmJduA2ZcpwIxwrQ7fOW1/App---Runners-(mescla)?node-id=38%3A259).
 
+# How to run
+
+```bash
+# Clone este repositório
+$ git clone https://github.com/Tiago-Silverio-da-Costa/The_Challenge_Race
+
+# Acesse o repositório
+$ cd The_Challenge_Race
+
+# Instale as dependências
+$ yarn install
+
+# Execute a aplicação em modo de desenvolvimento
+$ yarn run dev
+
+```
+
+# Technologies:
+<details>
+  <summary>Frontend</summary>
+
+- [Typescript](https://www.typescriptlang.org/)
+- [React](https://pt-br.reactjs.org/)
+- [React Router](https://www.npmjs.com/package/react-router-dom)
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [VS Code](https://code.visualstudio.com/)
+
+</details>
