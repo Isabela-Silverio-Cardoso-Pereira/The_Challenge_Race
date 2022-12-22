@@ -29,9 +29,17 @@
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
+
+
 ## 💻 Project
 
-Projeto desenvolvido para ser usado na disciplina de Educação Física misturando atividade física com quiz. O Host da corrida irá determinar os pontos de parada gerando o trajeto da corrida, em cada ponto ficará um QrCode que direcionará o(s) partipante(s) para pergunta na web, o participante apenas conseguirá passar para o próximo ponto se responder corretamente, para evitar com que o participante fique clicando em todas as opções rapidamente para passar para o próximo nível existirá um sistema de cooldown. O Host estará acompanhando pelo celular o progresso de todos os participantes da corrida, assim visualizando a quantidade de acertos e erros, tempo de corrida, posição atual e nome(pessoa ou equipe).
+<div align="center">
+    <img src=".github\quiz.png" width="100%"/>
+</div>
+
+Project developed to be used in the Physical Education discipline, mixing physical activity with a quiz. The host of the race will determine the stopping points, generating the route of the race, at each point there will be a QrCode that will direct the participant(s) to the question on the web,
+the participant will only be able to move to the next point if they answer correctly, to prevent the participant from clicking on all the options quickly to move to the next level there will be a cooldown system. The Host will be following the progress of all race participants by cell phone,
+thus viewing the number of hits and misses, running time, current position and name (person or team).
 
 # Design:
 
