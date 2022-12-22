@@ -1,7 +1,8 @@
 
-<h2 align="center">
-   Technologies:
-</h2>
+<div align="center">
+    <img src=".github\ChallengeRace.png" width="300px"/>
+</div>
+
 
 <p align="center">
 <img alt="badge typescript" src=".github\badge-typescript.svg">
