@@ -1,10 +1,4 @@
 
-
-
-<div align="center">
-    <img src=".github\Mind Blowing.png" width="300px"/>
-</div>
-
 <h2 align="center">
    Technologies:
 </h2>
