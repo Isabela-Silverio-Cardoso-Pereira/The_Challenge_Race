@@ -47,10 +47,10 @@ thus viewing the number of hits and misses, running time, current position and n
     <img alt="gif-mobile" src=".github\gif-mobile.gif" width="40%">    
 </p>
 
-# 👨🏽‍🎨Layout:
+## 👨🏽‍🎨Layout:
 You can preview the project layout through [this link](https://www.figma.com/file/7MmJduA2ZcpwIxwrQ7fOW1/App---Runners-(mescla)?node-id=38%3A259).
 
-# How to run
+## 🏃‍♂️How to run
 
 ```bash
 # Clone este repositório
@@ -67,7 +67,7 @@ $ yarn run dev
 
 ```
 
-# Technologies:
+## 🚀Technologies:
 <details>
   <summary>Frontend</summary>
 
