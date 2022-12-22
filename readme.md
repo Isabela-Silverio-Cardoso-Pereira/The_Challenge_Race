@@ -31,7 +31,7 @@
 
 
 
-## 💻 Project
+## 👨🏽‍💻 Project
 
 <div align="center">
     <img src=".github\home.png" width="200px"/>
@@ -47,8 +47,6 @@ thus viewing the number of hits and misses, running time, current position and n
     <img alt="gif-mobile" src=".github\gif-mobile.gif" width="40%">    
 </p>
 
-# Design:
+# 👨🏽‍🎨Layout:
+You can preview the project layout through [this link](https://www.figma.com/file/7MmJduA2ZcpwIxwrQ7fOW1/App---Runners-(mescla)?node-id=38%3A259).
 
-Figma: https://www.figma.com/file/7MmJduA2ZcpwIxwrQ7fOW1/App---Runners-(mescla)?node-id=38%3A259
-
-obs: quando entrar no figma não esqueça de olhar todas as pages.
