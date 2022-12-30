@@ -30,7 +30,7 @@
 </p>
 
 
-## In Development
+<h1>In Development</h1>
 ## 👨🏽‍💻 Project
 
 <div align="center">
